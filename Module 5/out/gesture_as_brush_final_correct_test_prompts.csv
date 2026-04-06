@@ -1,0 +1,253 @@
+painting_name,predicted_shape,actual_shape,generator_prompt,negative_prompt,feature_summary,prompt_package
+10 Gesture as a brush 2026-03-14 10-13-37,heart,heart,"heart-like abstract composition, symmetrical curved motif, abstract expressionist acrylic painting on canvas, visible brush strokes, heavy impasto paint, rich acrylic paint texture, subtle movement energy, restrained paint application, softer contrast, noticeable motion accents, textured brushwork, some broken edges, few motion pulses, spacious composition, strong rotation, swirling composition and circular movement, rotation-driven gesture, spiral and circular painterly flow, weak rhythm, irregular distribution of marks, shorter gesture influence, restrained canvas coverage, pronounced sharp interruptions and energetic directional breaks, gesture rhythm around 2.89 Hz","photorealistic, realistic, portrait, face, faces, people, human figure, object, objects, text, typography, letters, watermark, logo, 3d render, cartoon, anime, low resolution, blurry","rms_accel = 15.8313
+rms_jerk = 490.4518
+rms_gyro = 6.6334
+dominant_freq_hz = 2.8858
+freq_strength = 3.9023
+duration_s = 13.9004
+std_accel = 6.8600
+max_accel = 102.7599
+std_jerk = 490.4518
+max_jerk = 8184.2319
+std_gyro = 2.9978
+max_gyro = 16.2159
+accel_peak_count = 127.0000
+gyro_peak_count = 94.0000
+accel_zero_crossings = 62.0000
+gyro_accel_ratio = 0.4190","PAINTING: 10 Gesture as a brush 2026-03-14 10-13-37
+PREDICTED SHAPE: heart
+ACTUAL SHAPE: heart
+
+FEATURE VALUES:
+rms_accel = 15.8313
+rms_jerk = 490.4518
+rms_gyro = 6.6334
+dominant_freq_hz = 2.8858
+freq_strength = 3.9023
+duration_s = 13.9004
+std_accel = 6.8600
+max_accel = 102.7599
+std_jerk = 490.4518
+max_jerk = 8184.2319
+std_gyro = 2.9978
+max_gyro = 16.2159
+accel_peak_count = 127.0000
+gyro_peak_count = 94.0000
+accel_zero_crossings = 62.0000
+gyro_accel_ratio = 0.4190
+
+PROMPT:
+heart-like abstract composition, symmetrical curved motif, abstract expressionist acrylic painting on canvas, visible brush strokes, heavy impasto paint, rich acrylic paint texture, subtle movement energy, restrained paint application, softer contrast, noticeable motion accents, textured brushwork, some broken edges, few motion pulses, spacious composition, strong rotation, swirling composition and circular movement, rotation-driven gesture, spiral and circular painterly flow, weak rhythm, irregular distribution of marks, shorter gesture influence, restrained canvas coverage, pronounced sharp interruptions and energetic directional breaks, gesture rhythm around 2.89 Hz
+
+NEGATIVE PROMPT:
+photorealistic, realistic, portrait, face, faces, people, human figure, object, objects, text, typography, letters, watermark, logo, 3d render, cartoon, anime, low resolution, blurry"
+12 Gesture as a brush 2026-03-14 10-14-44,waves,waves,"wave-like abstract composition, flowing repeated curves, abstract expressionist acrylic painting on canvas, visible brush strokes, heavy impasto paint, rich acrylic paint texture, moderate movement energy, confident brushwork, balanced contrast, noticeable motion accents, textured brushwork, some broken edges, few motion pulses, spacious composition, strong rotation, swirling composition and circular movement, rotation-driven gesture, spiral and circular painterly flow, weak rhythm, irregular distribution of marks, medium gesture duration, balanced coverage of the canvas, few sharp interruptions, gesture rhythm around 0.59 Hz","photorealistic, realistic, portrait, face, faces, people, human figure, object, objects, text, typography, letters, watermark, logo, 3d render, cartoon, anime, low resolution, blurry","rms_accel = 18.4817
+rms_jerk = 345.3885
+rms_gyro = 8.0776
+dominant_freq_hz = 0.5874
+freq_strength = 4.3048
+duration_s = 16.8349
+std_accel = 6.4300
+max_accel = 39.6527
+std_jerk = 345.3884
+max_jerk = 2770.3401
+std_gyro = 3.9509
+max_gyro = 20.0194
+accel_peak_count = 125.0000
+gyro_peak_count = 83.0000
+accel_zero_crossings = 94.0000
+gyro_accel_ratio = 0.4371","PAINTING: 12 Gesture as a brush 2026-03-14 10-14-44
+PREDICTED SHAPE: waves
+ACTUAL SHAPE: waves
+
+FEATURE VALUES:
+rms_accel = 18.4817
+rms_jerk = 345.3885
+rms_gyro = 8.0776
+dominant_freq_hz = 0.5874
+freq_strength = 4.3048
+duration_s = 16.8349
+std_accel = 6.4300
+max_accel = 39.6527
+std_jerk = 345.3884
+max_jerk = 2770.3401
+std_gyro = 3.9509
+max_gyro = 20.0194
+accel_peak_count = 125.0000
+gyro_peak_count = 83.0000
+accel_zero_crossings = 94.0000
+gyro_accel_ratio = 0.4371
+
+PROMPT:
+wave-like abstract composition, flowing repeated curves, abstract expressionist acrylic painting on canvas, visible brush strokes, heavy impasto paint, rich acrylic paint texture, moderate movement energy, confident brushwork, balanced contrast, noticeable motion accents, textured brushwork, some broken edges, few motion pulses, spacious composition, strong rotation, swirling composition and circular movement, rotation-driven gesture, spiral and circular painterly flow, weak rhythm, irregular distribution of marks, medium gesture duration, balanced coverage of the canvas, few sharp interruptions, gesture rhythm around 0.59 Hz
+
+NEGATIVE PROMPT:
+photorealistic, realistic, portrait, face, faces, people, human figure, object, objects, text, typography, letters, watermark, logo, 3d render, cartoon, anime, low resolution, blurry"
+2 Gesture as a brush 2026-03-14 10-08-58,star,star,"star-like abstract composition, pointed angular motif, abstract expressionist acrylic painting on canvas, visible brush strokes, heavy impasto paint, rich acrylic paint texture, moderate movement energy, confident brushwork, balanced contrast, smooth transitions, continuous strokes, soft edges, few motion pulses, spacious composition, moderate rotation, curved brush movement and turning structure, linear gesture dominance, directional composition, weak rhythm, irregular distribution of marks, shorter gesture influence, restrained canvas coverage, few sharp interruptions, gesture rhythm around 1.83 Hz","photorealistic, realistic, portrait, face, faces, people, human figure, object, objects, text, typography, letters, watermark, logo, 3d render, cartoon, anime, low resolution, blurry","rms_accel = 17.7409
+rms_jerk = 188.0607
+rms_gyro = 3.7782
+dominant_freq_hz = 1.8323
+freq_strength = 3.6675
+duration_s = 11.9964
+std_accel = 8.0116
+max_accel = 46.3567
+std_jerk = 188.0607
+max_jerk = 975.6119
+std_gyro = 2.0854
+max_gyro = 11.4416
+accel_peak_count = 111.0000
+gyro_peak_count = 89.0000
+accel_zero_crossings = 76.0000
+gyro_accel_ratio = 0.2130","PAINTING: 2 Gesture as a brush 2026-03-14 10-08-58
+PREDICTED SHAPE: star
+ACTUAL SHAPE: star
+
+FEATURE VALUES:
+rms_accel = 17.7409
+rms_jerk = 188.0607
+rms_gyro = 3.7782
+dominant_freq_hz = 1.8323
+freq_strength = 3.6675
+duration_s = 11.9964
+std_accel = 8.0116
+max_accel = 46.3567
+std_jerk = 188.0607
+max_jerk = 975.6119
+std_gyro = 2.0854
+max_gyro = 11.4416
+accel_peak_count = 111.0000
+gyro_peak_count = 89.0000
+accel_zero_crossings = 76.0000
+gyro_accel_ratio = 0.2130
+
+PROMPT:
+star-like abstract composition, pointed angular motif, abstract expressionist acrylic painting on canvas, visible brush strokes, heavy impasto paint, rich acrylic paint texture, moderate movement energy, confident brushwork, balanced contrast, smooth transitions, continuous strokes, soft edges, few motion pulses, spacious composition, moderate rotation, curved brush movement and turning structure, linear gesture dominance, directional composition, weak rhythm, irregular distribution of marks, shorter gesture influence, restrained canvas coverage, few sharp interruptions, gesture rhythm around 1.83 Hz
+
+NEGATIVE PROMPT:
+photorealistic, realistic, portrait, face, faces, people, human figure, object, objects, text, typography, letters, watermark, logo, 3d render, cartoon, anime, low resolution, blurry"
+3 Gesture as a brush 2026-03-14 10-09-51,star,star,"star-like abstract composition, pointed angular motif, abstract expressionist acrylic painting on canvas, visible brush strokes, heavy impasto paint, rich acrylic paint texture, subtle movement energy, restrained paint application, softer contrast, smooth transitions, continuous strokes, soft edges, few motion pulses, spacious composition, moderate rotation, curved brush movement and turning structure, balanced linear and rotational movement, mixed composition, weak rhythm, irregular distribution of marks, shorter gesture influence, restrained canvas coverage, few sharp interruptions, gesture rhythm around 0.27 Hz","photorealistic, realistic, portrait, face, faces, people, human figure, object, objects, text, typography, letters, watermark, logo, 3d render, cartoon, anime, low resolution, blurry","rms_accel = 16.3436
+rms_jerk = 188.7814
+rms_gyro = 4.0383
+dominant_freq_hz = 0.2748
+freq_strength = 3.5392
+duration_s = 15.7620
+std_accel = 4.9479
+max_accel = 39.4871
+std_jerk = 188.7814
+max_jerk = 1498.5712
+std_gyro = 1.9988
+max_gyro = 11.6946
+accel_peak_count = 117.0000
+gyro_peak_count = 70.0000
+accel_zero_crossings = 80.0000
+gyro_accel_ratio = 0.2471","PAINTING: 3 Gesture as a brush 2026-03-14 10-09-51
+PREDICTED SHAPE: star
+ACTUAL SHAPE: star
+
+FEATURE VALUES:
+rms_accel = 16.3436
+rms_jerk = 188.7814
+rms_gyro = 4.0383
+dominant_freq_hz = 0.2748
+freq_strength = 3.5392
+duration_s = 15.7620
+std_accel = 4.9479
+max_accel = 39.4871
+std_jerk = 188.7814
+max_jerk = 1498.5712
+std_gyro = 1.9988
+max_gyro = 11.6946
+accel_peak_count = 117.0000
+gyro_peak_count = 70.0000
+accel_zero_crossings = 80.0000
+gyro_accel_ratio = 0.2471
+
+PROMPT:
+star-like abstract composition, pointed angular motif, abstract expressionist acrylic painting on canvas, visible brush strokes, heavy impasto paint, rich acrylic paint texture, subtle movement energy, restrained paint application, softer contrast, smooth transitions, continuous strokes, soft edges, few motion pulses, spacious composition, moderate rotation, curved brush movement and turning structure, balanced linear and rotational movement, mixed composition, weak rhythm, irregular distribution of marks, shorter gesture influence, restrained canvas coverage, few sharp interruptions, gesture rhythm around 0.27 Hz
+
+NEGATIVE PROMPT:
+photorealistic, realistic, portrait, face, faces, people, human figure, object, objects, text, typography, letters, watermark, logo, 3d render, cartoon, anime, low resolution, blurry"
+4 Gesture as a brush 2026-03-14 10-10-26,waves,waves,"wave-like abstract composition, flowing repeated curves, abstract expressionist acrylic painting on canvas, visible brush strokes, heavy impasto paint, rich acrylic paint texture, moderate movement energy, confident brushwork, balanced contrast, smooth transitions, continuous strokes, soft edges, few motion pulses, spacious composition, strong rotation, swirling composition and circular movement, rotation-driven gesture, spiral and circular painterly flow, weak rhythm, irregular distribution of marks, medium gesture duration, balanced coverage of the canvas, few sharp interruptions, gesture rhythm around 1.77 Hz","photorealistic, realistic, portrait, face, faces, people, human figure, object, objects, text, typography, letters, watermark, logo, 3d render, cartoon, anime, low resolution, blurry","rms_accel = 16.9030
+rms_jerk = 216.4801
+rms_gyro = 7.5819
+dominant_freq_hz = 1.7652
+freq_strength = 3.5486
+duration_s = 18.4661
+std_accel = 6.3624
+max_accel = 38.8406
+std_jerk = 216.4801
+max_jerk = 1763.1397
+std_gyro = 3.6835
+max_gyro = 20.9505
+accel_peak_count = 161.0000
+gyro_peak_count = 106.0000
+accel_zero_crossings = 68.0000
+gyro_accel_ratio = 0.4486","PAINTING: 4 Gesture as a brush 2026-03-14 10-10-26
+PREDICTED SHAPE: waves
+ACTUAL SHAPE: waves
+
+FEATURE VALUES:
+rms_accel = 16.9030
+rms_jerk = 216.4801
+rms_gyro = 7.5819
+dominant_freq_hz = 1.7652
+freq_strength = 3.5486
+duration_s = 18.4661
+std_accel = 6.3624
+max_accel = 38.8406
+std_jerk = 216.4801
+max_jerk = 1763.1397
+std_gyro = 3.6835
+max_gyro = 20.9505
+accel_peak_count = 161.0000
+gyro_peak_count = 106.0000
+accel_zero_crossings = 68.0000
+gyro_accel_ratio = 0.4486
+
+PROMPT:
+wave-like abstract composition, flowing repeated curves, abstract expressionist acrylic painting on canvas, visible brush strokes, heavy impasto paint, rich acrylic paint texture, moderate movement energy, confident brushwork, balanced contrast, smooth transitions, continuous strokes, soft edges, few motion pulses, spacious composition, strong rotation, swirling composition and circular movement, rotation-driven gesture, spiral and circular painterly flow, weak rhythm, irregular distribution of marks, medium gesture duration, balanced coverage of the canvas, few sharp interruptions, gesture rhythm around 1.77 Hz
+
+NEGATIVE PROMPT:
+photorealistic, realistic, portrait, face, faces, people, human figure, object, objects, text, typography, letters, watermark, logo, 3d render, cartoon, anime, low resolution, blurry"
+6 Gesture as a brush 2026-03-14 10-11-30,waves,waves,"wave-like abstract composition, flowing repeated curves, abstract expressionist acrylic painting on canvas, visible brush strokes, heavy impasto paint, rich acrylic paint texture, moderate movement energy, confident brushwork, balanced contrast, smooth transitions, continuous strokes, soft edges, few motion pulses, spacious composition, strong rotation, swirling composition and circular movement, rotation-driven gesture, spiral and circular painterly flow, weak rhythm, irregular distribution of marks, medium gesture duration, balanced coverage of the canvas, occasional sharp interruptions, gesture rhythm around 1.88 Hz","photorealistic, realistic, portrait, face, faces, people, human figure, object, objects, text, typography, letters, watermark, logo, 3d render, cartoon, anime, low resolution, blurry","rms_accel = 17.2878
+rms_jerk = 281.5137
+rms_gyro = 8.1039
+dominant_freq_hz = 1.8840
+freq_strength = 4.8126
+duration_s = 17.0246
+std_accel = 6.5854
+max_accel = 52.1309
+std_jerk = 281.5137
+max_jerk = 3258.1636
+std_gyro = 3.9785
+max_gyro = 19.5688
+accel_peak_count = 150.0000
+gyro_peak_count = 70.0000
+accel_zero_crossings = 70.0000
+gyro_accel_ratio = 0.4688","PAINTING: 6 Gesture as a brush 2026-03-14 10-11-30
+PREDICTED SHAPE: waves
+ACTUAL SHAPE: waves
+
+FEATURE VALUES:
+rms_accel = 17.2878
+rms_jerk = 281.5137
+rms_gyro = 8.1039
+dominant_freq_hz = 1.8840
+freq_strength = 4.8126
+duration_s = 17.0246
+std_accel = 6.5854
+max_accel = 52.1309
+std_jerk = 281.5137
+max_jerk = 3258.1636
+std_gyro = 3.9785
+max_gyro = 19.5688
+accel_peak_count = 150.0000
+gyro_peak_count = 70.0000
+accel_zero_crossings = 70.0000
+gyro_accel_ratio = 0.4688
+
+PROMPT:
+wave-like abstract composition, flowing repeated curves, abstract expressionist acrylic painting on canvas, visible brush strokes, heavy impasto paint, rich acrylic paint texture, moderate movement energy, confident brushwork, balanced contrast, smooth transitions, continuous strokes, soft edges, few motion pulses, spacious composition, strong rotation, swirling composition and circular movement, rotation-driven gesture, spiral and circular painterly flow, weak rhythm, irregular distribution of marks, medium gesture duration, balanced coverage of the canvas, occasional sharp interruptions, gesture rhythm around 1.88 Hz
+
+NEGATIVE PROMPT:
+photorealistic, realistic, portrait, face, faces, people, human figure, object, objects, text, typography, letters, watermark, logo, 3d render, cartoon, anime, low resolution, blurry"
