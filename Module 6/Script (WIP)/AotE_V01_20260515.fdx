@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FinalDraft DocumentType="Script" Template="No" Version="6">
+
+  <DocumentRef DateTime="20260514T144509" id="65e6327f-b8b0-40c8-9cb9-9f01ccd08c9f">
+    <XRef DateTime="20260409T052116" id="3cc4e8ce-b0b4-4850-8e97-27f966e926ff"/>
+    <XRef DateTime="20260409T052214" id="bdff20ea-ca8d-4e5b-bdba-a59fca7b0192"/>
+    <XRef DateTime="20260423T150425" id="2f18974a-42b3-4f82-8523-fad2ee614138"/>
+  </DocumentRef>
+
+  <Content>
+    <Paragraph Type="General" id="46bb7963-a381-4372-9bf8-344fa4f6ef5f">
+      <Text Style="Italic">This fable is told from one constant, never-changing perspective; a close-on, fixed frame, centering a unique protagonist: the potato plant. </Text>
+    </Paragraph>
+    <Paragraph Type="General" id="46bb7963-a381-4372-9bf8-344fa4f6ef5f">
+      <Text Style="Italic">Throughout this filmic tale, it will always remain in the foreground and at the center of our view. </Text>
+    </Paragraph>
+    <Paragraph Type="General" id="46bb7963-a381-4372-9bf8-344fa4f6ef5f">
+      <Text Style="Italic">Even if it is charred to a crisp, ripped out of the ground or trampled into inexistence; our gaze remains mounted to its undeniable, timeless presence.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="24" Spacing="1" StartsNewPage="No" Type="Scene Heading" id="08ef159d-2c29-40f1-8a0e-61d0244ec177">
+      <SceneProperties Length="1/8" Page="1" Title="">
+        <SceneArcBeats/>
+      </SceneProperties>
+      <Text Style="Bold+Underline+AllCaps">Act 1</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" id="aaad8f1d-ea8c-4911-821f-4893fcc62f68">
+      <SceneProperties Length="3 4/8" Page="1" Title="">
+        <SceneArcBeats/>
+      </SceneProperties>
+      <Text>Ext. Andean valley - day</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="27dc2f62-607c-49fc-ab16-be751e255f9d">
+      <Text>We FADE IN FROM BLACK to reveal a vast landscape in high altitude, layered with countless mountain slopes stretching to the horizon. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="4a1520e7-4d7f-41ed-8cde-9b8929471eb8">
+      <Text>Amidst the farthest ridge of towering peaks rests SABANCAYA, a mythic, perfectly shaped volcanic presence. A thin plume of smoke rises from it to a vast, blue sky.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="1af4c6a6-40c4-4e1e-93ef-38b0b790d62c">
+      <Text>Humanity has yet interfere with this sacred place. But the vegetation, lush and rich in spite of the high altitude, </Text>
+      <Text Style="Italic">is</Text>
+      <Text> </Text>
+      <Text Style="Italic">inviting</Text>
+      <Text>.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="4dc2c38e-5e17-43f6-a8d0-779d166cbbba">
+      <Text>In the foreground of our view lies an untouched patch of grass-covered soil. There, our unlikely hero emerges: a POTATO PLANT SPROUT courageously pushes through the ground.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="cbea6ae0-69f7-4e87-8b9f-baa53c57f15f">
+      <Text>Within seconds -- and by defying all laws of time -- the seedling grows into a stubborn, leaf-bushy plant. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="4adc61b0-c02e-4990-84c9-5269a591da1b">
+      <Text>Then, as the sun embraces it with warm light, the plant shows gratitude by developing a beautiful, white flower.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="4adc61b0-c02e-4990-84c9-5269a591da1b">
+      <Text>Another blossom follows suit. And another. More buds BURST open to unveil their inner beauty.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="12a9061f-5457-4976-a2f7-b60d0d75c3bb">
+      <Text>The bloom attract a curious BEE, hovering into frame, inspecting them, then choosing one by one to drink nectar from. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="ffa9bb20-7dc7-408c-ad12-82f8da6c1783">
+      <Text>As the sun begins to set, the nurtured bee moves on; its flight slightly slower, heavy from the flora feast.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="47478be2-e818-4ed0-bfc4-d86de359c989">
+      <Text>The flowers fade, the plant’s leaves thicken. The soil around the plant begins to slightly swell.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="c3d95a05-e3b7-4314-9286-71d960d5c650">
+      <Text>A beat.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="f5d171e3-dd5c-4b49-b12f-3a72ce9bce24">
+      <Text>Night falls and a bright moon rises, shedding cold light on the valley and our plant.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="b312f6f9-8d3c-4553-a0af-325f45df5daf">
+      <Text>We linger in the rich, nightly SOUNDSCAPE of this untouched land, when we begin to hear SOUNDS of toe-nailed paws approaching.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="1049e6c8-d92c-4179-aaf3-458f87a293c2">
+      <Text>And after a moment, four sure-footed, slender legs enter the frame, slowly approaching the potato plant. The animal stops to boom its head into frame to smell it with hungry curiosity. A LLAMA!</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="1049e6c8-d92c-4179-aaf3-458f87a293c2">
+      <Text>SUDDENLY. The Llama’s head instinctively shoots up and out of our view; as if sensing approaching danger. Faint SOUNDS of stone CLICKS and RUSTLING of grass.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="1049e6c8-d92c-4179-aaf3-458f87a293c2">
+      <Text>The Llama’s legs exude a slight tremble.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="1049e6c8-d92c-4179-aaf3-458f87a293c2">
+      <Text>Then they SPRINT OFF, stirring the air around our potato plant’s leaves.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="681269a2-c6b0-4395-bdd4-f77ea76b71e6">
+      <Text>The SOUNDS of the animal’s flight dissipate into the night, leaving an eerie silence to herald a dangerous, presence closing in. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="404c815b-d378-4d80-988f-a19e02473c0e">
+      <Text>A deep, hungry PURR emerges. This must be no mere cat. The sounds are much deeper. Deadlier.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="1049e6c8-d92c-4179-aaf3-458f87a293c2">
+      <Text>With skillful, predatory pads, the legs of a PUMA stalk by; merely brushing the plant with its flank as it trails its prey. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="48f7586d-10a2-4576-a18d-573caf5e3651">
+      <Text>He hunter only passes by and pays no attention to our plant; stalking off into the direction in which the Llama took off. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="d7e34a6f-a570-47b8-9477-f3531b9276f1">
+      <Text>The deep PURR fades away and the night falls quiet again.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="36792b11-3d70-4ce9-81da-be5380085c53">
+      <Text>Beat. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="d7a16116-ca55-436d-853a-92a21be5d3ed">
+      <Text>Then: the SOUNDS of toe-nailed paws approach </Text>
+      <Text Style="Italic">yet again</Text>
+      <Text>. This time more careful; almost inaudible; the sneaky, courageous Llama returns returns!</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="d7a16116-ca55-436d-853a-92a21be5d3ed">
+      <Text>Its head peeks back into frame as it resumes sniffing the potato plant. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="d7a16116-ca55-436d-853a-92a21be5d3ed">
+      <Text>Driven by hunger and forgetful of the dangers abound, it begins to loosen the ground with its paws.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="89dbc841-ba79-4a91-a67b-a92180e5643f">
+      <Text>As it skillfully digs deeper around the potato plant, we get the slightest glimpse of what treasure hides beneath the soil: </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="89dbc841-ba79-4a91-a67b-a92180e5643f">
+      <Text>PAPAS, bathed in moonlight. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="89dbc841-ba79-4a91-a67b-a92180e5643f">
+      <Text>Potatoes. Much smaller and more rugged than those of our time; still, these earthy nuggets radiate pure energy.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="89dbc841-ba79-4a91-a67b-a92180e5643f">
+      <Text>The llama begins to MUNCH on them. And for a peaceful moment, we observe.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="89dbc841-ba79-4a91-a67b-a92180e5643f">
+      <Text>Suddenly, with a FIERCE ROAR, the puma leaps into frame out of nowhere, attacking its prey with its deadly claws. The Llama barely manages to escape, and dashes out of frame.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="89dbc841-ba79-4a91-a67b-a92180e5643f">
+      <Text>The puma CHASES right after it. And while our gaze remains fixed on the plant -- its roots unearthed, its treasure exposed -- we hear the chilling SOUNDS of a Llama being MAULED TO DEATH in the distance.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="f2beb04d-eea8-42d0-981d-2817f57ea356">
+      <Text>A long beat.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="f56e1d89-98bf-447b-838d-348128421453">
+      <Text>A new day breaks, the sun washes away the violent night. And it’s witness, our bruised potato, plant gets an unlikely visitor yet again:</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="e249992d-3593-4759-b6cf-1223dcc17b00">
+      <Text>This time, we hear the HUMMING of a WOMAN approaching. And without seeing her presence in full, as she enters frame, we see her body parts clothed in colorful, woven garment made from llama fiber.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="e249992d-3593-4759-b6cf-1223dcc17b00">
+      <Text>We do not get a glimpse of her face, as her rugged, deep brown-skinned hands hesitantly dive into frame, down to the papas to inspect the earthy treasure. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="e249992d-3593-4759-b6cf-1223dcc17b00">
+      <Text>Then with a decisive pull, they grab the plant by its lower stems and and rip it from the ground along with the potatoes dangling from it.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="e249992d-3593-4759-b6cf-1223dcc17b00">
+      <Text>We now only observe the legs again, as the Woman must be inspecting her harvest; before she resumes her journey and leaves frame.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="4b9b0995-6ece-4f97-97c7-177412b5fab5">
+      <Text>Her HUMMING SONG dissipates. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="4b9b0995-6ece-4f97-97c7-177412b5fab5">
+      <Text>Day turns to night and we get to see a small bonfire ignite on one of the many mountain slopes layering the valley in the background.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="470b6717-561b-4620-b45e-45bfae446197">
+      <Text>As the speed of time ramps up, the fire extinguishes and days and nights spiral into a temporal dance, Sabancaya’s previously thin plumes of smoke grow thicker and darker. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="55107b2e-10a0-461c-949f-dd5438ba442e">
+      <Text>The excavated patch of land before us, heals and grows over.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="058b5372-adef-4cc6-a698-85675515c46e">
+      <Text>And as sun and moon, rain and dry weather are chasing each other at eclectic speeds, in the far and blurred distance, HUMANS begin to carve agricultural terraces into the mountain slopes.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="5d195f7e-f81e-497d-ba72-a97edb0b8bbe">
+      <Text>Once the valley’s transformation by human hand is completed, time begins to slow and comes to rest on one, gloomy, fateful day.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="30145312-ecc5-45c9-a6bc-158cd5b23a4e">
+      <Text>Dark, think molasses-like plumes of smoke escape from Sabancaya’s peak. Tremors SHAKE the ground; violently wiggling the leaves of our plant. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="30145312-ecc5-45c9-a6bc-158cd5b23a4e">
+      <Text>Deep, heavy SOUNDS of volcanic activity herald a looming catastrophe. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="e80d8cb4-977b-4913-9308-3efdaabcb335">
+      <Text>Then -- as if the air is drawn out of the valley by invisible lungs with one breath: Sudden SILENCE. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="a098a1ba-2d00-45e8-82a6-27fae1b8c025">
+      <Text>A beat.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="6d59a746-03ce-4b49-9d89-73003130e42e">
+      <Text>Suddenly, massive vertical eruptions EXPLODE from </Text>
+      <Text AdornmentStyle="-1">Sabancaya</Text>
+      <Text>. A giant pillar of gas and ash pushes upward; within it, deadly, volcanic lightning flickers.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="7c430341-f0cb-4c8f-9515-90856c6c3f46">
+      <Text>A pyroclastic wave races towards us; a voluptuous surge of darkness and death incinerating everything it touches.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="453e9cdd-a033-4667-9de9-e2668b602f78">
+      <Text>Seconds later, everything turns to utter darkness. </Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="681e0227-84a8-41b0-a9a0-975534cd58f2">
+      <Text>A </Text>
+      <Text Style="Italic">long</Text>
+      <Text> beat.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="3e42edf2-0377-4839-b3e1-ff6c05b27a53">
+      <Text>A few sun rays pierce the thick fumes; the air clears slowly. Only to reveal the charred remains of the valley.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="66b5ad5b-8d2e-440f-ba3a-6f30485cd502">
+      <Text>Then: The crumbly SOUND of something small but unyielding pushing through dark ash and cindered ground:</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="66b5ad5b-8d2e-440f-ba3a-6f30485cd502">
+      <Text>A green potato SEEDLING pushes through the crusted earth!</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="9168ab9c-dc2c-43ad-80a4-ef1970bc500b">
+      <Text>Time stops and allows us to marvel at this beautiful bright green miracle. </Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="ae7e69db-fe58-4934-b655-1fb09e795f4b">
+      <Text>When suddenly, the stacked mountain slopes and ridges behind it SWOOSH with ROARING SOUNDS to the side like layered flats of a puppeteer theatre being swapped for a new scene.</Text>
+    </Paragraph>
+    <Paragraph Type="End of Act" id="76cec8e0-ce75-402b-8c4f-c7c03104b350">
+      <Text>ACt 2</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" id="371948da-c0d8-4bd0-a5b4-423339175645">
+      <SceneProperties Length="3 2/8" Page="4" Title="">
+        <SceneArcBeats/>
+      </SceneProperties>
+      <Text>EXT. Alpine valley - day</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="44fc491f-bbb3-4b62-8279-1f8e8e22eed0">
+      <Text>As if exchanged by the hands of some capricious god, the tectonic layers of the land are exchanged with those of a valley nestled at the feet of the majestic Alps. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="bf246f7a-46b2-4a89-a81f-e372307cac41">
+      <Text>The soil along with the previously emerged seedling MORPHS from the wild Andean patch of land to a carefully maintained field, meticulously structured by ridges and furrows.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="950fa8f8-7e14-4d99-8ac3-d03619310f7d">
+      <Text Style="Italic">We are indeed traveling to a new region of the world; and a different time, too!</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="3fc05857-12fa-4c1c-9045-796f16ddf452">
+      <Text>Yet this time around, the potato plant seedling at the center of our view is surrounded by many others of its kind, growing next to each other; neatly aligned, along the ridges of the field.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="268f455b-a480-45d9-b027-1e520675d276">
+      <Text>The behind the field there are farmhouses nestled along the shore of a tame river, meandering across the valley. More houses are nestled against the mountain slopes at higher altitude than those on the valley floor.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="268f455b-a480-45d9-b027-1e520675d276">
+      <Text>Once again, defying the laws of time, the sprout grows before our eyes into a full-sized potato plant, while the others follow suit.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="b91d8b62-b26e-4f9c-ac84-36480b945a3f">
+      <Text>The plants produce beautiful flowers, then they fade, the plant’s leaves thicken. The soil around the plants begins to slightly swell.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="9cb9e54b-d55a-4b08-8ffb-37eb403bfb7d">
+      <Text>Beat.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="5494848c-8f74-4ace-922f-bad8354e5c0f">
+      <Text>Evening falls. The houses’ windows illuminate from dim, flickering electric light. We hear muffled laughter of what must be a joyous family occasion (a birthday?) seeping through the walls of one of the closer houses.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="5494848c-8f74-4ace-922f-bad8354e5c0f">
+      <Text>Meanwhile the river, tame and gentle, reflects a full moon.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="3ef581cf-7a58-4238-a337-b488c0f37670">
+      <Text>As we transition to a new day, we hear HOOFBEATS approach, paired with the clunky RATTLE of metal machinery. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="3ef581cf-7a58-4238-a337-b488c0f37670">
+      <Text>Then, the muscular legs of a WORK HORSE trot by from left to right across frame, followed by a pulled harness with metal blades cutting across the ridges. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="3ef581cf-7a58-4238-a337-b488c0f37670">
+      <Text>The potato plants are unearthed and from underneath, well-formed potatoes are exposed.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="8678303b-85de-430b-aadf-ae7bee595bb2">
+      <Text>And meanwhile the RATTLING fades into the SOUNDS of subdued CHATTER of a FARMER FAMILY drawing closer. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="8678303b-85de-430b-aadf-ae7bee595bb2">
+      <Text>As they reach our field of vision, the hands and legs of a FARMER and his WIFE dip into frame, removing the potatoes from the soil, and throwing them into carried baskets.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="e05794ed-a0f1-46d4-a149-9435de6e8bc9">
+      <Text Style="Italic">Like in the previous act; our fixed, centered and close up view of the potato plant does not allow seeing more than body parts of the humans interacting with it. The humans remain faceless, due to our constricted perspective.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="af35b99f-ed7d-45ad-8396-b7215cc70010">
+      <Text>Then, the inevitable happens: Time accelerates yet again, ending the day in mere seconds, with the farmers and their machinery racing across the field, right to left and vice versa; gleaning the field into the distance.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="af35b99f-ed7d-45ad-8396-b7215cc70010">
+      <Text>The accelerated succession of days and nights; sun and rain -- we are now familiar with these time ramps -- ignites yet again until another full field of potato plant seedlings has grown.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="560536ef-3c4e-453b-b33f-d6376f0997f2">
+      <Text>As the harvest nears, time decelerates and falls still on one fateful day:</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="81877ccf-7f7c-43ce-bb28-8526c5133ecb">
+      <Text>A military truck in complete disregard of the fragile sprouts, CRUNCHES its tires across the frame, halting abruptly at its edge. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="51459843-b41a-4f42-95ec-e1d7c5e5ba3d">
+      <Text>The legs of a SOLDIER jump out of the vehicle and into frame. A stake is RAMMED into the ground, stride by stride, with what must be a heavy hammer; deeper and deeper until a red and yellow striped sign dips into our view:</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="7bc51213-62ad-4313-afaf-456b64c655dd">
+      <Text>“DAMMBAU - </Text>
+      <Text AdornmentStyle="-1">EVAKUIERUNGSZONE</Text>
+      <Text>” </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="7bc51213-62ad-4313-afaf-456b64c655dd">
+      <Text>(Dam Construction - Evacuation Zone)</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="8f5437fd-b653-4a50-84ac-f7dc2bbe7f9c">
+      <Text>The truck drives off only to reappear in the further background near one of the houses. Along side with it, many more military trucks pull up to the rest of the village in what must be an orchestrated operation.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="dd04762e-d17a-4fca-97cc-f649d31544bb">
+      <Text>And while our gaze remains fixed on the potato plant; indifferent and unmoved, we hear DOOR KNOCKS; then, INDISTINCT YELLING, the CRYING OF A BABY; doors being SLAMMED.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="dd04762e-d17a-4fca-97cc-f649d31544bb">
+      <Text>We only see them as small and blurry figures, but we can make out FAMILIES being escorted out of their houses and into the trucks by SOLDIERS. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="dd04762e-d17a-4fca-97cc-f649d31544bb">
+      <Text>Then, some of the vehicles violently drive off with then, other trucks stay.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="45352f02-9f36-4bd8-98e2-13a5c0255a37">
+      <Text>The day turns to night. Our potato plants stands unattended amongst its peers, when the rest of the military trucks finally drive off.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="57e0e548-6f74-4814-a717-a557540acd3e">
+      <Text>The night is now mute; gone is the muffled laughter and an eerie silence takes hold.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="2e6de341-6bf5-486f-828b-f22a31ab1af8">
+      <Text>When the sun rises and begins to illuminate the valley, we begin to hear the ROARING motors of 1930s era military aircraft approach from our rear. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="2e6de341-6bf5-486f-828b-f22a31ab1af8">
+      <Text>Once their volume peaks, two Fokker C-V-E bombers DASH OVER us across the sky towards the houses.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="6b884f4a-efcf-46dc-9cab-966bdf9e4577">
+      <Text>As their low and aggressive flight - at times no more than 30 meters above ground - continues, they circle back around, now FACING and FLYING TOWARDS US. Their mission culminates in the  release heavy, bomb-like looking objects that fall towards the houses.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="7c3ddd89-c558-4d38-9c4a-28aa3c7ed01f">
+      <Text>One bomb hits its target, and demolishes a house in a massive explosion. The other bomb slightly misses by a few meters, yet still destroys a vast majority of its target’s structure.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="76ae5f90-6742-4a03-99be-33f9c20a9141">
+      <Text>More planes follow - at least 4! - and in an meticulously orchestrated attack sequence, the rest of the houses are destroyed as well.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="11d595f3-c42c-402f-840f-b2015da2fc9e">
+      <Text>Finally, the planes fly off, their intimidating SOUNDS dissipating, leaving behind only smoldering remains of what was once a village.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="9a1e364d-e122-49c9-a80d-5a1819644955">
+      <Text>Beat.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="9a1e364d-e122-49c9-a80d-5a1819644955">
+      <Text>As time picks up speed yet again. The field harboring the potato plant, now unattended, becomes over-grown with weeds, some reaching the height of that ominous warning sign.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="83b8646d-189e-4875-99c3-ce797b58087f">
+      <Text>Yet, as we now race through the days and nights ahead, the SOUNDSCAPE of a massive construction site off screen emerges; gaining in complexity and volume until a rapid stop signals its completion.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="677ec117-aef5-46ad-bcd5-69ebfdd5d030">
+      <Text>The speed of the timelapse decreases, collapsing into one fateful, cloudy day. Without rain, the once peaceful river begins slowly to swell and overflow. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="677ec117-aef5-46ad-bcd5-69ebfdd5d030">
+      <Text>Slowly but surely, the water reaches the destroyed houses, and then moments later our potato plant; engulfing and ultimately swallowing the entire valley floor. </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="677ec117-aef5-46ad-bcd5-69ebfdd5d030">
+      <Text>An artificial lake forms in front of our eyes!</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="6dc3e18a-c858-4af8-81e2-fdc34270191b">
+      <Text>As the water begins to climb up on our camera lens, the valley continues to flood until our view angle is completely submerged.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="9a1e364d-e122-49c9-a80d-5a1819644955">
+      <Text>Daylight fades away, as the forming lake becomes deeper and deeper.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="1a3232cf-bc58-46a6-b310-ff39c20cb090">
+      <Text>MOMENTS LATER we only see a fading silhouette of our potato plant; drowning, slowly decaying und eventually disappearing.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="df6435b4-b8bb-4bce-90ce-cfedd282f383">
+      <Text>And then it happens again. That celestial interference, where some invisible creator rips apart time and space (as have observed before at the end of Act 1): </Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="df6435b4-b8bb-4bce-90ce-cfedd282f383">
+      <Text>As if a gigantic fish tank suddenly BURST in front of our eyes, the massive body of water in front of our eyes washes away to the sides, only to reveal...</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="e1830547-2cb5-447b-a457-13169ba144db"/>
+    <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="24" Spacing="1" StartsNewPage="No" Type="Scene Heading" id="531ba074-5048-450e-bd5c-f26c17130748">
+      <SceneProperties Length="1/8" Page="8" Title="">
+        <SceneArcBeats/>
+      </SceneProperties>
+      <Text Style="Bold+Underline+AllCaps">Act 3</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" id="21d3e85b-04f2-47d5-a66f-39db48766ace">
+      <SceneProperties Length="3 6/8" Page="8" Title="">
+        <SceneArcBeats/>
+      </SceneProperties>
+      <Text>Int. Agricultural chamber - day</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="70fe734c-4675-44eb-8f3b-7447ebf93387">
+      <Text>...a hangar-like facility, with thick-glassed, hexagon-shaped windows offering a spectacular view:</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="b5978532-6e34-4e96-ab4f-12b6310ddcd3">
+      <Text>Reddish deserts stretch into the far distance, forming the backdrop to what can only be described as futuristic buildings of a SPACE COLONY located on MARS.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="b0bff1c3-5a54-4d0e-ab57-7e7098b207b4">
+      <Text>In the foreground of our unchanged point of view, there is yet again that very patch of soil; this time encased in what must be a highly advanced growing pod. More of these pods are lined up in the middle ground of our frame.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="e6e25bf5-5785-47b9-9de5-2415b1317e0b">
+      <Text>A MAN with a thinned-out physique walks into frame — again, we only see the parts of his body exposed to our viewpoint — and dips his rubber-gloved hands into the pod to plant what appears to be a sliced-up potato.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="e140fa55-d853-494f-a4f4-83a6f346b8c3">
+      <Text>Once finished, his slightly trembling, soiled hands retreat.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="84ef1203-381b-4c52-99b7-f8a962d7c857">
+      <Text>The Man leaves frame again.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="33bb9736-686f-47ea-9242-d93d416e63bb">
+      <Text>With an electric BUZZ, powerful ceiling heat lamps cast warm cones of light onto the soil pods.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="7d8721a8-c8d2-4a55-9f87-2a2f8c87288e">
+      <Text>Then, a sprinkler system -- similar to what we know from our time -- activates, spraying what must be a precisely calculated amount of water onto the soil.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="831b9d79-96f5-446e-b2d5-ef1c299eeee1">
+      <Text>The two systems alternate with mechanical precision: once one switches on, the other switches off.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="17570979-1a5b-4690-a269-f3f5f828e3a7">
+      <Text>Outside the agricultural chamber, beyond the thick window glass, a cosmic version of the dance between day and night — now very familiar to us — begins once more.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="1ac07ac5-5f68-4a80-92f8-2a8e1d0aa15e">
+      <Text>And at the very center of our view, in that patch of soil, the same miracle occurs, which we have now observed multiple times:</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="4cf450f9-d036-4319-8a25-46483d5cc762">
+      <Text>Curious SEEDLINGS of potato plants push through the soil; one of them assuming the exact same centered position within our frame, just like its ancestors in the previous acts.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="03b1ccd4-1c07-478c-87e6-3b10cac31dbc">
+      <Text>In the other pods lined up further back, a variety of plants grow too -- most likely vegetables and fruit -- hard to identify from the distance.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="53069ccc-8d6b-4e43-bcf8-98347330d3ed">
+      <Text>While we observe the intervals of heat lamp and artificial rain accelerating faster and faster, the plants grow into their destined size.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="53069ccc-8d6b-4e43-bcf8-98347330d3ed">
+      <Text>Meanwhile and beyond the windows, we see that the colony infrastructure available to our view is not exactly thriving. To the contrary: it is but </Text>
+      <Text Style="Italic">decaying</Text>
+      <Text>.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="9ef1beef-142f-472a-ab12-0e47d317d5e3">
+      <Text>The hulls of the buildings are visibly decaying from the harsh conditions, their once-white surfaces dulled by relentless corrosion and reddish dust. </Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="9ef1beef-142f-472a-ab12-0e47d317d5e3">
+      <Text Style="Italic">No one seems to be repairing them. No one appears to be restoring their functionality.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="faee2c6f-469f-4eed-be39-28fb8e6b3628">
+      <Text>During the nights, fewer and fewer lights switch on outside.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="749e9535-fa6f-4bc7-96de-b6fd0a2c0675">
+      <Text>The heat lamp BUZZES, flickers, struggling to turn on.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="c3ee380f-b1b7-40ad-ad97-d7155116dff2">
+      <Text>The potato plant responds to the warm embrace of artificial light by producing one singular bud, which then surely POPS open to reveal a beautiful white flower.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="14097001-7d94-4331-baed-c00354bb67e2">
+      <Text>Then another bud develops. And another. And another. The plant at the center of our view goes into full bloom.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="4a81fb2e-8326-4c51-a69c-7f879cc798b2">
+      <Text>The rest of the vegetation follows suit.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="7b9286ab-c60c-4f68-97d3-9e8ae1551b3f">
+      <Text>Then, a small DRONE — similar in size to a bee — WHIZZES into frame.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="6dea5471-e138-4284-a076-c1e756bd6499">
+      <Text>It hovers in front of one of the potato flowers, scans it.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="cb8ed2f9-94f4-4fdd-876c-3d6e4e35155b">
+      <Text>It begins to fly from bloom to bloom, pollinating them one by one.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="7129ebfb-0e57-4c30-8500-bb1d85c3683c">
+      <Text Style="Italic">We do of course know, that potato growing does not require pollination, but the other vegetables do.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="c4a9dfbc-346e-4dd2-a352-44b91e0e69d3">
+      <Text>The drone completes its task, then whizzes out of frame, only to reenter further back to pollinate the other vegetation further back.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="0df4c552-9609-4c92-ac0d-e9188df54ad6">
+      <Text>Beat.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="eef26dbf-b781-41df-8f92-fcd678602aac">
+      <Text>As the chamber continues its rhythm, the flowers fade. Leaves thicken. The soil around the plant begins to swell. The plants further back develop colorful fruit and vegetables.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="1577bbbd-e098-426f-8dd8-3b28097f06bb">
+      <Text>The Man with the gloves returns harvest; and while we only get to see his lower body and hands, we notice that one of his gloves is repaired with a piece of silver tape</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="d75887e3-dcaa-452c-9a15-8075a9fcf4ed">
+      <Text>He grabs our plant by the stem, rips it out alongside its tubers and walks off.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="3de20ecc-3db0-41dd-9c3e-f6357dc9da1a">
+      <Text>Time accelerates again. And in a timelapse, as days and nights continue to whiz by, the fruits and vegetables in the back are deplete steadily.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="08a90aea-f8d9-430f-90f9-229ac285719b">
+      <Text>Outside the thick glass, the colony continues its decay. </Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="5303d7b1-07d4-428f-b31b-53eb1d789546">
+      <Text>Until one night — as time slows down yet again — no lights ignite at all. Only those in our our chamber remains.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="b1ebbedd-9c8f-4785-9bf0-75aa570aaeab">
+      <Text>The Man with rubber gloves returns; again only partially available to our point of view.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="8084a3f2-3e3e-41fc-9c68-54d0095e4b04">
+      <Text>His body appears even thinner now. His movements slower. His rubber gloves show wear and tear, the patch of silver tape must have fallen off.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="887c8115-e4c3-4727-964a-7c1178f46863">
+      <Text>Then, a deep, dull RUMBLE shakes the chamber. Oblivious to it, man does not physically react.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="4932249c-34a0-4ec2-846d-a78de1ffd5a1">
+      <Text>Outside, the Martian horizon begins to disappear, as a wall of red dust gathers in the distance, spreading across the desert like an enormous, approaching tide.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="cab13c61-e849-462f-902b-14cb9eae4b23">
+      <Text>The chamber lights flicker.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="4876fdbc-01d6-41ec-b27d-4006a62658ec">
+      <Text>The Man presses one quarter of the potato into the soil -- now restored and </Text>
+      <Text AdornmentStyle="-1">plant-less</Text>
+      <Text> -- where our plant stood; the others next to it.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="3d004214-9fa7-40c2-8ab4-a540194f59e1">
+      <Text>He walks off, slowly, weakened hampered by a painful limp.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="9133aa65-62ee-4f6e-a8c3-6eab7d6942c4">
+      <Text>The heat lamp BUZZES overhead. The sprinkler system activates.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="309d61bf-cdf3-445b-8b2e-39d1333bbccd">
+      <Text>Yet only a few tired drops fall.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="cb93ec71-dfdd-4994-bdc5-abfa5a8078e8">
+      <Text>Beat.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="5500675f-a991-4825-a20f-0599b8f16c79">
+      <Text>The red storm reaches the colony.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="584e72d1-b4a2-42fa-add3-248a73e0fa82">
+      <Text>Dust SLAMS against the thick hexagonal windows, blotting our view to the outside.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="1b3f7d1d-d8df-486d-8dd9-3696cec0754f">
+      <Text>The chamber begins to tremble again; this time stronger.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="8be04466-7dae-4d4e-a690-f8f1749754ac">
+      <Text>The leaves of our plant shake from the vibration of the structure around it.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="d2c18d74-a418-499b-a560-6495ecce937a">
+      <Text>A warning light at the backside of the chamber begins to pulse, it is accompanied by a bone-chilling ALERT TONE.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="1d29e11b-0d5e-48f8-a0ca-7ee44c1c77eb">
+      <Text>The sandstorm grows LOUDER, filling the chamber with a deep, grinding ROAR.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="0e3bb2ea-3142-4b7b-bdfa-f7935b932c24">
+      <Text>The glass strains. We hear CRACKS, SOUNDS of metal frames bending.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="76146c2b-4788-4623-9335-4f03d290b9fb">
+      <Text>Somewhere off-screen, a seal breaks with a BANG.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="2530be94-426c-426e-8da9-50e16cd6ae94">
+      <Text>A thin HISS cuts through the noise.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="eda3eb54-c2a6-4959-9b10-f111c04f2367">
+      <Text>The glass of the Chamber now visibly CRACKS.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="4b2c8b66-ea09-45a2-9952-f010d88ab5d6">
+      <Text>A sharp line splits across the transparent shell, racing from one edge to the next.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="361dcec4-02eb-44c7-8c12-82b3232f30e7">
+      <Text>The heat lamp flickers violently, then extinguishes.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="1796ca3e-7939-4842-a6fd-bb134d0f8962">
+      <Text>BAM. The window glass BURSTS. Martian dust explodes into the chamber.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="efb82bf3-0de0-41f4-a42d-d6b2803c88a0">
+      <Text>The remaining vegetation is swallowed by red darkness, bending under the violent pressure.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="d6fb7ae2-2c11-4b1f-bbab-fe48a0178879">
+      <Text>The soil lifts from the pod, scattering into the air.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="426c486e-249b-48bd-a420-8320c1bc0456">
+      <Text>Then, like a submarine imploding under too much pressure, the chamber collapses in a violent instant.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="ea152ec1-97ed-4ca1-a7de-dd17c591e2c5">
+      <Text>Darkness.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="5f1bbb6a-192d-42b4-a4fa-b6cf4a2ea76d">
+      <Text>A long beat.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="e1bbb087-ec3a-4b46-82a5-8442ac50d5b4">
+      <Text>Only the BLOWING SOUNDS of the sand storm remains. </Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="08a6c722-5a08-4c84-97d4-49efc4031b22">
+      <Text>We FADE IN to dust settling on shredded debris of the chamber, covered in red dust.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="229fe7ed-594a-47de-8100-0c4abbfbe0fb">
+      <Text>As the wind lifts away some of the dust one bruised piece of potato, is revealed.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.74" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action" id="eee7c90c-6b81-4782-b9f7-ef2b72dadc17">
+      <Text>The dust covers it.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="d591d95e-cefb-408b-90f5-af4c77ad7fe1">
+      <Text>Cut to black.</Text>
+    </Paragraph>
+    <Paragraph Type="End of Act" id="f9ce6007-3d84-47c2-a120-ed0d1be7845d">
+      <Text>The end.</Text>
+    </Paragraph>
+  </Content>
+
+  <Watermarking Opacity="70" Position="Diagonal Descending">
+    <DynamicContent>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="1" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+    </DynamicContent>
+    <Distribution>
+      <Name></Name>
+    </Distribution>
+    <WatermarkImage Height="144"></WatermarkImage>
+  </Watermarking>
+
+  <HeaderAndFooter FooterFirstPage="Yes" FooterVisible="No" HeaderFirstPage="No" HeaderVisible="Yes" StartingPage="1">
+    <Header>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" OutlineLevel="1" RightIndent="-1.00" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">	</Text>
+        <DynamicLabel AdornmentStyle="0" Background="#RRRRGGGGBBBB" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="" Type="Collated Revisions"/>
+        <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">	</Text>
+        <DynamicLabel AdornmentStyle="0" Background="#RRRRGGGGBBBB" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="" Type="Page #"/>
+        <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">.</Text>
+        <Tabstops>
+          <Tabstop Position="4.50" Type="Center"/>
+          <Tabstop Position="7.25" Type="Right"/>
+        </Tabstops>
+      </Paragraph>
+    </Header>
+    <Footer>
+      <Paragraph Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" OutlineLevel="1" RightIndent="-1.25" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""> </Text>
+      </Paragraph>
+    </Footer>
+  </HeaderAndFooter>
+
+  <SpellCheckIgnoreLists>
+    <IgnoredRanges>
+      <Range End="330" Start="319"/>
+      <Range End="619" Start="610"/>
+      <Range End="4976" Start="4965"/>
+      <Range End="5477" Start="5466"/>
+      <Range End="5795" Start="5786"/>
+      <Range End="9705" Start="9698"/>
+      <Range End="9724" Start="9708"/>
+    </IgnoredRanges>
+    <IgnoredWords/>
+  </SpellCheckIgnoreLists>
+
+  <PageLayout BackgroundColor="#FFFFFFFFFFFF" BottomMargin="72" BreakDialogueAndActionAtSentences="Yes" DocumentLeading="Normal" FooterMargin="36" ForegroundColor="#000000000000" HeaderMargin="36" InvisiblesColor="#808080808080" TopMargin="72" UsesSmartQuotes="Yes">
+    <PageSize Height="11.00" Width="8.50"/>
+    <AutoCastList AddParentheses="Yes" AutomaticallyGenerate="Yes" CastListElement="Cast List"/>
+  </PageLayout>
+
+  <WindowState Height="934" Left="0" Mode="Normal" Top="104" Width="1612"/>
+
+  <TextState Scaling="90" Selection="15073,15073" ShowInvisibles="No"/>
+
+  <ElementSettings Type="General">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" Type="General"/>
+    <Behavior PaginateAs="General" ReturnKey="General" Shortcut="0" WinShortcut="0"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Scene Heading">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="24" Spacing="1" StartsNewPage="No" Type="Scene Heading"/>
+    <Behavior PaginateAs="Scene Heading" ReturnKey="Action" Shortcut="1" WinShortcut="1"/>
+    <Outline CanHide="No" Level="2"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Action">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action"/>
+    <Behavior PaginateAs="Action" ReturnKey="Action" Shortcut="2" WinShortcut="2"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Character">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="3.50" RightIndent="7.25" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Character"/>
+    <Behavior PaginateAs="Character" ReturnKey="Dialogue" Shortcut="3" WinShortcut="3"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Parenthetical">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="-0.10" Leading="Regular" LeftIndent="3.00" RightIndent="5.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" Type="Parenthetical"/>
+    <Behavior PaginateAs="Parenthetical" ReturnKey="Dialogue" Shortcut="4" WinShortcut="4"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Dialogue">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="2.50" RightIndent="6.00" SpaceBefore="0" Spacing="1" StartsNewPage="No" Type="Dialogue"/>
+    <Behavior PaginateAs="Dialogue" ReturnKey="Action" Shortcut="5" WinShortcut="5"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Transition">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="5.50" RightIndent="7.10" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Transition"/>
+    <Behavior PaginateAs="Transition" ReturnKey="Scene Heading" Shortcut="6" WinShortcut="6"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Shot">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Shot"/>
+    <Behavior PaginateAs="Scene Heading" ReturnKey="Action" Shortcut="7" WinShortcut="7"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Cast List">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" Type="Cast List"/>
+    <Behavior PaginateAs="Action" ReturnKey="Action" Shortcut="8" WinShortcut="8"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="New Act">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="Bold+Underline+AllCaps"/>
+    <ParagraphSpec Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="Yes" Type="New Act"/>
+    <Behavior PaginateAs="Scene Heading" ReturnKey="Scene Heading" Shortcut="9" WinShortcut="9"/>
+    <Outline CanHide="No" Level="6"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Sequence">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="Bold+Underline+AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" RightIndent="7.50" SpaceBefore="24" Spacing="1" StartsNewPage="No" Type="Sequence"/>
+    <Behavior PaginateAs="Scene Heading" ReturnKey="Scene Heading" Shortcut="Ctrl+8" WinShortcut="Shift+8"/>
+    <Outline CanHide="No" Level="4"/>
+  </ElementSettings>
+
+  <ElementSettings Type="End of Act">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="Bold+Underline+AllCaps"/>
+    <ParagraphSpec Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" RightIndent="7.50" SpaceBefore="24" Spacing="1" StartsNewPage="No" Type="End of Act"/>
+    <Behavior PaginateAs="Character" ReturnKey="New Act" Shortcut="Ctrl+9" WinShortcut="Shift+9"/>
+    <Outline CanHide="No" Level="6"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Summary">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#87878F8FE0E0" Font="Arial" RevisionID="0" Size="12" Style="HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.88" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Summary"/>
+    <Behavior PaginateAs="Outline Body" ReturnKey="Summary" Shortcut="Ctrl+0" WinShortcut="Shift+0"/>
+    <Outline CanHide="Yes" Level="0"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Outline 1">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#87878F8FE0E0" Font="Arial" RevisionID="0" Size="16" Style="Bold+HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.88" RightIndent="7.50" SpaceBefore="16" Spacing="1" StartsNewPage="No" Type="Outline 1"/>
+    <Behavior PaginateAs="Outline" ReturnKey="Summary" Shortcut="Ctrl+1" WinShortcut="Shift+1"/>
+    <Outline CanHide="Yes" Level="7"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Outline 2">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#87878F8FE0E0" Font="Arial" RevisionID="0" Size="14" Style="Bold+HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.12" RightIndent="7.50" SpaceBefore="14" Spacing="1" StartsNewPage="No" Type="Outline 2"/>
+    <Behavior PaginateAs="Outline" ReturnKey="Summary" Shortcut="Ctrl+2" WinShortcut="Shift+2"/>
+    <Outline CanHide="Yes" Level="5"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Outline 3">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#87878F8FE0E0" Font="Arial" RevisionID="0" Size="12" Style="Bold+HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.38" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Outline 3"/>
+    <Behavior PaginateAs="Outline" ReturnKey="Summary" Shortcut="Ctrl+3" WinShortcut="Shift+3"/>
+    <Outline CanHide="Yes" Level="3"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Note">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#87878F8FE0E0" Font="Arial" RevisionID="0" Size="12" Style="Italic+HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.62" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Note"/>
+    <Behavior PaginateAs="Outline" ReturnKey="Summary" Shortcut="Ctrl+4" WinShortcut="Shift+4"/>
+    <Outline CanHide="Yes" Level="1"/>
+  </ElementSettings>
+
+  <TitlePage>
+    <HeaderAndFooter FooterFirstPage="Yes" FooterVisible="No" HeaderFirstPage="No" HeaderVisible="Yes" StartingPage="1">
+      <Header>
+        <Paragraph Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" OutlineLevel="1" RightIndent="-1.25" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <DynamicLabel AdornmentStyle="0" Background="#RRRRGGGGBBBB" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="" Type="Page #"/>
+          <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">.</Text>
+        </Paragraph>
+      </Header>
+      <Footer>
+        <Paragraph Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" OutlineLevel="1" RightIndent="-1.25" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      </Footer>
+    </HeaderAndFooter>
+    <Content>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="Underline+AllCaps">Apple of my earth (WT)</Text>
+      </Paragraph>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">Written by</Text>
+      </Paragraph>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">Samuel </Text>
+        <Text AdornmentStyle="-1" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">Flueckiger</Text>
+      </Paragraph>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">Häsiweg 9c </Text>
+      </Paragraph>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">5018 Erlinsbach</Text>
+      </Paragraph>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.44" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">+41795043741</Text>
+      </Paragraph>
+    </Content>
+    <TextState Scaling="100" Selection="140,140" ShowInvisibles="No"/>
+  </TitlePage>
+
+  <SmartType>
+    <Characters/>
+    <Extensions>
+      <Extension>(V.O.)</Extension>
+      <Extension>(O.S.)</Extension>
+      <Extension>(O.C.)</Extension>
+      <Extension>(CONT'D)</Extension>
+      <Extension>(SUBTITLE)</Extension>
+      <Extension>(TEXT)</Extension>
+    </Extensions>
+    <SceneIntros Separator=". ">
+      <SceneIntro>INT</SceneIntro>
+      <SceneIntro>EXT</SceneIntro>
+      <SceneIntro>I/E</SceneIntro>
+    </SceneIntros>
+    <Locations>
+      <Location>COLCA VALLEY</Location>
+      <Location>ACT 3</Location>
+    </Locations>
+    <TimesOfDay Separator=" - ">
+      <TimeOfDay>DAY</TimeOfDay>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <TimeOfDay>AFTERNOON</TimeOfDay>
+      <TimeOfDay>MORNING</TimeOfDay>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <TimeOfDay>LATER</TimeOfDay>
+      <TimeOfDay>MOMENTS LATER</TimeOfDay>
+      <TimeOfDay>CONTINUOUS</TimeOfDay>
+      <TimeOfDay>THE NEXT DAY</TimeOfDay>
+      <TimeOfDay>MAGIC HOUR</TimeOfDay>
+      <TimeOfDay>DAWN</TimeOfDay>
+      <TimeOfDay>DUSK</TimeOfDay>
+      <TimeOfDay>SAME</TimeOfDay>
+      <TimeOfDay>SAME TIME</TimeOfDay>
+    </TimesOfDay>
+    <Transitions>
+      <Transition>CUT TO:</Transition>
+      <Transition>FADE IN:</Transition>
+      <Transition>FADE OUT.</Transition>
+      <Transition>FADE TO:</Transition>
+      <Transition>DISSOLVE TO:</Transition>
+      <Transition>BACK TO:</Transition>
+      <Transition>MATCH CUT TO:</Transition>
+      <Transition>JUMP CUT TO:</Transition>
+      <Transition>FADE TO BLACK.</Transition>
+      <Transition>SMASH CUT TO:</Transition>
+      <Transition>CUT TO BLACK.</Transition>
+      <Transition>TIME CUT:</Transition>
+    </Transitions>
+  </SmartType>
+
+  <MoresAndContinueds>
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
+    <DialogueBreaks AutomaticCharacterContinueds="Yes" BottomOfPage="Yes" DialogueBottom="(MORE)" DialogueTop="(CONT'D)" TopOfNext="Yes"/>
+    <SceneBreaks ContinuedNumber="No" SceneBottom="(CONTINUED)" SceneBottomOfPage="No" SceneTop="CONTINUED:" SceneTopOfNext="No"/>
+  </MoresAndContinueds>
+
+  <LockedPages/>
+
+  <Revisions ActiveSet="1" Location="7.75" RevisionMode="No" RevisionsShown="Active" ShowPageColor="No">
+    <Revision FullRevision="No" ID="1" Mark="*" Name="Blue Rev. (mm/dd/yy)" PageColor="#C6C6EDEDFEFE" Style=""/>
+    <Revision FullRevision="No" ID="2" Mark="*" Name="Pink Rev. (mm/dd/yy)" PageColor="#FDFDCCCCD4D4" Style=""/>
+    <Revision FullRevision="No" ID="3" Mark="*" Name="Yellow Rev. (mm/dd/yy)" PageColor="#FDFDFFFFABAB" Style=""/>
+    <Revision FullRevision="No" ID="4" Mark="*" Name="Green Rev. (mm/dd/yy)" PageColor="#D1D1FEFED0D0" Style=""/>
+    <Revision FullRevision="No" ID="5" Mark="*" Name="Goldenrod Rev. (mm/dd/yy)" PageColor="#FAFACDCD3939" Style=""/>
+    <Revision FullRevision="No" ID="6" Mark="*" Name="Buff Rev. (mm/dd/yy)" PageColor="#FCFCEDED9D9D" Style=""/>
+    <Revision FullRevision="No" ID="7" Mark="*" Name="Salmon Rev. (mm/dd/yy)" PageColor="#F8F8AEAE8E8E" Style=""/>
+    <Revision FullRevision="No" ID="8" Mark="*" Name="Cherry Rev. (mm/dd/yy)" PageColor="#FBFBA4A4B4B4" Style=""/>
+    <Revision FullRevision="No" ID="9" Mark="*" Name="Tan Rev. (mm/dd/yy)" PageColor="#FDFDF1F1C7C7" Style=""/>
+    <Revision FullRevision="No" ID="10" Mark="*" Name="2nd White Rev. (mm/dd/yy)" PageColor="#FFFFFFFFFFFF" Style=""/>
+    <Revision FullRevision="No" ID="11" Mark="*" Name="2nd Blue Rev. (mm/dd/yy)" PageColor="#C6C6EDEDFEFE" Style=""/>
+    <Revision FullRevision="No" ID="12" Mark="*" Name="2nd Pink Rev. (mm/dd/yy)" PageColor="#FDFDCCCCD4D4" Style=""/>
+    <Revision FullRevision="No" ID="13" Mark="*" Name="2nd Yellow Rev. (mm/dd/yy)" PageColor="#FDFDFFFFABAB" Style=""/>
+    <Revision FullRevision="No" ID="14" Mark="*" Name="2nd Green Rev. (mm/dd/yy)" PageColor="#D1D1FEFED0D0" Style=""/>
+    <Revision FullRevision="No" ID="15" Mark="*" Name="2nd Goldenrod Rev. (mm/dd/yy)" PageColor="#FAFACDCD3939" Style=""/>
+    <Revision FullRevision="No" ID="16" Mark="*" Name="2nd Buff Rev. (mm/dd/yy)" PageColor="#FCFCEDED9D9D" Style=""/>
+    <Revision FullRevision="No" ID="17" Mark="*" Name="2nd Salmon Rev. (mm/dd/yy)" PageColor="#F8F8AEAE8E8E" Style=""/>
+    <Revision FullRevision="No" ID="18" Mark="*" Name="2nd Cherry Rev. (mm/dd/yy)" PageColor="#FBFBA4A4B4B4" Style=""/>
+    <Revision FullRevision="No" ID="19" Mark="*" Name="2nd Tan Rev. (mm/dd/yy)" PageColor="#FDFDF1F1C7C7" Style=""/>
+  </Revisions>
+
+  <SplitState ActivePanel="1" CardsAcross="2" ShowAction="Yes" ShowSceneTitle="Yes" ShowSummary="Yes" SplitMode="None" SplitterPosition="0">
+    <ScriptPanel DisplayMode="Page">
+      <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Arial" RevisionID="0" Size="12" Style=""/>
+    </ScriptPanel>
+  </SplitState>
+
+  <Macros>
+    <Macro Element="Scene Heading" Name="INT" Shortcut="Ctrl+Alt+1" Text="INT. " Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="EXT" Shortcut="Ctrl+Alt+2" Text="EXT. " Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="I/E" Shortcut="Ctrl+Alt+3" Text="I/E " Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="DAY" Shortcut="Ctrl+Alt+4" Text=" - DAY" Transition="Action">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="NIGHT" Shortcut="Ctrl+Alt+5" Text=" - NIGHT" Transition="Action">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="SUNRISE" Shortcut="Ctrl+Alt+6" Text=" - SUNRISE" Transition="Action">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="MAGIC" Shortcut="Ctrl+Alt+7" Text=" - MAGIC" Transition="Action">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Parenthetical" Name="CONT" Shortcut="Ctrl+Alt+8" Text="continuing" Transition="Dialogue">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Parenthetical" Name="INTER" Shortcut="Ctrl+Alt+9" Text="interrupting" Transition="Dialogue">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="None" Name="" Shortcut="Ctrl+Alt+0" Text="" Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="CUTTO" Shortcut="Ctrl+Shift+Alt+1" Text="CUT TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Action" Name="FADEIN" Shortcut="Ctrl+Shift+Alt+2" Text="FADE IN:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="FADEOUT" Shortcut="Ctrl+Shift+Alt+3" Text="FADE OUT." Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="FADETO" Shortcut="Ctrl+Shift+Alt+4" Text="FADE TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="DISSLV" Shortcut="Ctrl+Shift+Alt+5" Text="DISSOLVE TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="BACKTO" Shortcut="Ctrl+Shift+Alt+6" Text="BACK TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="MATCHCUT" Shortcut="Ctrl+Shift+Alt+7" Text="MATCH CUT TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="JUMPCUT" Shortcut="Ctrl+Shift+Alt+8" Text="JUMP CUT TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="FBLACK" Shortcut="Ctrl+Shift+Alt+9" Text="FADE TO BLACK." Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="None" Name="" Shortcut="E" Text="" Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+  </Macros>
+
+  <Actors>
+    <Actor MacVoice="" Name="Man 1" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Man 2" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Woman 1" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Woman 2" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Boy 1" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Boy 2" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Girl 1" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Girl 2" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Old Man" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Old Woman" Pitch="Normal" Speed="Medium" WinVoice=""/>
+  </Actors>
+
+  <Cast>
+    <Narrator Actor="Man 1">
+      <Element Type="Character"/>
+      <Element Type="Dialogue"/>
+    </Narrator>
+  </Cast>
+
+  <SceneNumberOptions LeftLocation="0.75" NumberScheme="1A" RightLocation="7.38" ShowNumbersOnLeft="Yes" ShowNumbersOnRight="Yes">
+    <FontSpec AdornmentStyle="0" Background="#FFFFFFFFFFFF" Color="#000000000000" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
+  </SceneNumberOptions>
+
+  <CastList SortOption="Alphabetical">
+    <CustomOrder/>
+  </CastList>
+
+  <CharacterHighlighting/>
+
+  <ScriptNavigatorPreferences>
+    <TableColumnSettings Filter="" IsSortAscending="Yes" Label="Script" SortColumn="" TableIdentifier="NavDynScenes" id="2c52c102-ff9b-4e23-a2b2-a38213ea7313"/>
+  </ScriptNavigatorPreferences>
+
+  <AltCollection/>
+
+  <TargetScriptLength>120</TargetScriptLength>
+
+  <ListItems/>
+
+  <DisplayBoards>
+    <DisplayBoard Height="10000" Id="ea5ac6af-4926-415c-897c-51bfeff25831" ScrollOrigin="0,0" Type="Beat" Width="24000" ZoomLevel="100.000"/>
+    <DisplayBoard Height="90" Id="f54e428f-4469-484b-8c9d-7dba54866258" ScrollOrigin="0,0" Type="StoryMap" Width="14600" ZoomLevel="730.000">
+      <Lanes>
+        <Lane Id="3d533610-6410-4fc0-ac17-6fda1888afdc" Label="Outline 1" Level="7" Type="Outline 1"/>
+        <Lane Id="9024c1e5-cafa-4eb3-adb6-0a516f8a915d" Label="Outline 2" Level="5" Type="Outline 2"/>
+      </Lanes>
+    </DisplayBoard>
+  </DisplayBoards>
+
+  <Writers/>
+
+  <WriterMarkup State="Off"/>
+
+  <TagData>
+    <TagCategories>
+      <TagCategory Color="#00003600B700" Id="01fc9642-84ff-4366-b37c-a3068dee57e8" Name="Cast Members" Number="2" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="028a4e2b-b507-4d09-88ab-90e3edae9071" Name="Background Actors" Number="3" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0377dbe6-77a3-41af-bda8-86eb2468fdbf" Name="Stunts" Number="4" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="04721a56-f54b-49c8-80ad-d53887d6b851" Name="Vehicles" Number="5" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="05c556eb-6bc1-4a3a-b09f-f8b5ba1b6afa" Name="Props" Number="6" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="069e18b8-2109-4f3d-94e7-d802027a60a8" Name="Special Effects" Number="8" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0726fa85-1e65-4ab8-87de-bf21d09b01f0" Name="Wardrobe" Number="9" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="08ae1eef-32ce-415f-9a9b-0982d2453ec4" Name="Makeup/Hair" Number="10" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="09cb0d1c-ce01-4f22-bb64-b5f2e6c491c6" Name="Animals" Number="11" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0ae40617-cc7c-48e6-ae2b-5aaecc09986f" Name="Animal Wrangler" Number="12" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0b0b44c9-aa4b-4c40-88b1-d94472ad7a26" Name="Music" Number="13" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0ce7d308-096d-4603-8fe8-349f72cd89ff" Name="Sound" Number="15" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0debb71b-5743-4c53-80cc-e17e841ce645" Name="Set Dressing" Number="17" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0e7a8fc5-5441-4bad-a9bf-5ddd3fe51c69" Name="Greenery" Number="18" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0ff5cda4-4d43-4cfe-940f-91380c46fdad" Name="Special Equipment" Number="19" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="109d0eaa-0334-4823-ac0c-b44d3f209dc4" Name="Security" Number="20" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="1179a4b1-70ee-4011-b4a2-809a0af09e92" Name="Additional Labor" Number="21" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="12ab0932-e3b9-4b4a-bcd0-3da1b4e61d5e" Name="Visual Effects" Number="23" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="135cc9d1-c4d5-4d00-83d9-571f584ea9cd" Name="Mechanical Effects" Number="24" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="15b6f4fd-4e74-4ad8-9971-b239d88c2997" Name="Notes" Number="26" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="216f33fd-fc42-4269-be01-b05b18f815a0" Name="Comments" Number="31" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="47b02ff1-5161-4137-b736-f36eebba7643" Name="Camera" Number="7" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="63c140da-ef2b-491a-b416-b46f461abb89" Name="Script Day" Number="27" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="70877d87-30ef-45b6-be46-c6fa94b83a71" Name="Sequence" Number="29" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="849f1ebf-5507-4f33-bff6-3a5b4d73be14" Name="Unit" Number="28" Style="Bold"/>
+      <TagCategory Color="#000000000000" Id="8e5e75c2-713b-47df-a75f-f12648b98ded" Name="Synopsis" Number="1" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="c5e89e4d-f83e-4c28-950c-92a63f1b5f26" Name="Location" Number="30" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="c86eae40-3b01-41c3-a7de-6859e6ec971d" Name="Art Department" Number="16" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="ce04f547-f7ee-40c9-ab66-d95a0c98034e" Name="Miscellaneous" Number="25" Style="Bold"/>
+    </TagCategories>
+  </TagData>
+
+  <Characters>
+    <CharacterTraitData>
+      <Traits>
+        <Trait ID="a771e8a7-0c6f-401c-ab87-b50f83fc64b4" Name="Age" Type="text"/>
+        <Trait ID="6b3a0017-69de-4c7a-b6e8-1d0b4d2ad047" Name="Disability" Type="text"/>
+        <Trait ID="4b987a9f-24dc-44ae-9bb5-0756485c1c80" Name="Ethnicity" Type="text"/>
+        <Trait ID="611965b7-ffab-41a1-a154-023ea8caf768" Name="Gender" Type="text"/>
+        <Trait ID="9b51b304-a8c0-4277-a841-342b5f84fc65" Name="Occupation" Type="text"/>
+        <Trait ID="ecdbbc67-9a69-40dc-8e9f-745a665ab73a" Name="Orientation" Type="text"/>
+        <Trait ID="338d378b-5235-40ad-8102-0dbe0b32ff84" Name="Role" Type="text"/>
+      </Traits>
+      <Holders/>
+    </CharacterTraitData>
+    <ChartOptions Identifier="InclusivityAnalysis">
+      <FilterSets/>
+    </ChartOptions>
+  </Characters>
+
+  <ScriptNotes/>
+
+  <Navigator>
+    <Tabs>
+      <Tab Selected="Yes" id="2c52c102-ff9b-4e23-a2b2-a38213ea7313"/>
+    </Tabs>
+  </Navigator>
+
+  <Images/>
+
+  <Outlines Paragraphs="Show" StructureLines="Hide"/>
+
+</FinalDraft>

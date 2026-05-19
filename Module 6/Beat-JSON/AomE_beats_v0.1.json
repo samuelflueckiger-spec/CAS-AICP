@@ -1,0 +1,2652 @@
+{
+  "project": {
+    "title": "Apple of my Earth",
+    "abbreviation": "AomE",
+    "author": "Samuel Flückiger",
+    "version": "0.1-draft",
+    "draft_date": "2026-05-19",
+    "screenplay_reference": "AotE_V01_20260515.pdf",
+    "core_theme": "protection_gap",
+    "plant_entity_id": "plant_001",
+    "aspect_ratio": "16:9",
+    "render_resolution": "1920x1080",
+    "plate_resolution": "3840x2160",
+    "methodology": "llm_orchestrated_json_driven_generation",
+    "codec_strategy": {
+      "plates": "PNG_16bit",
+      "rendered_layers": "ProRes_4444",
+      "composited_beats": "ProRes_4444",
+      "edited_master": "ProRes_422_HQ",
+      "distribution": "H264_MP4",
+      "exhibition_master": "VHS_via_ProRes_422_HQ"
+    },
+    "compositing_tool": "after_effects"
+  },
+
+  "global_visual_rules": {
+    "camera": {
+      "locked": true,
+      "plant_centered": true,
+      "no_pan_tilt_zoom": true
+    },
+    "depth_of_field": {
+      "foreground": "sharp",
+      "midground": "softening",
+      "background": "blurred_readable"
+    },
+    "humans": {
+      "full_body_allowed": false,
+      "full_face_allowed": false,
+      "visibility_mode": ["partial", "background_blurred"]
+    },
+    "animals": {
+      "full_body_allowed": false,
+      "visibility_mode": ["partial"]
+    },
+    "style": {
+      "photorealistic": true,
+      "cinematic": true,
+      "documentary_like": true,
+      "no_style_imitation": true
+    },
+    "foreground_anchor_default": [0.5, 0.78]
+  },
+
+  "plates": {
+    "A1_plate_pristine": {
+      "description": "Untouched Andean valley with Sabancaya, before terraces, before humans",
+      "asset_path": "plates/A1_andean_pristine.png",
+      "generation_status": "not_started",
+      "anchor_points_px": {
+        "sabancaya_summit": [2840, 720],
+        "sabancaya_base": [2840, 1400],
+        "foreground_soil_center": [1920, 1680]
+      }
+    },
+    "A1_plate_terraced": {
+      "description": "Same Andean valley with Inca-style agricultural terraces carved into slopes",
+      "asset_path": "plates/A1_andean_terraced.png",
+      "derived_from": "A1_plate_pristine",
+      "derivation_method": "img2img_low_denoise_add_terraces",
+      "generation_status": "not_started",
+      "anchor_points_px": {
+        "sabancaya_summit": [2840, 720],
+        "sabancaya_base": [2840, 1400],
+        "foreground_soil_center": [1920, 1680]
+      }
+    },
+    "A1_plate_charred": {
+      "description": "Andean valley after pyroclastic destruction. Black ash, charred slopes, hanging haze",
+      "asset_path": "plates/A1_andean_charred.png",
+      "derived_from": "A1_plate_terraced",
+      "derivation_method": "img2img_destruction_pass",
+      "generation_status": "not_started",
+      "anchor_points_px": {
+        "sabancaya_summit": [2840, 720],
+        "foreground_soil_center": [1920, 1680]
+      }
+    },
+    "A2_plate_pristine": {
+      "description": "Alpine valley near Einsiedeln, 1930s. Tame river, farmhouses, ridged potato field, gentle slopes",
+      "asset_path": "plates/A2_alpine_pristine.png",
+      "generation_status": "not_started",
+      "anchor_points_px": {
+        "primary_farmhouse": [2400, 1100],
+        "river_centerline": [1600, 1500],
+        "foreground_soil_center": [1920, 1680]
+      }
+    },
+    "A2_plate_evacuated": {
+      "description": "Same Alpine valley, houses still standing but unattended, weeds in field, no people",
+      "asset_path": "plates/A2_alpine_evacuated.png",
+      "derived_from": "A2_plate_pristine",
+      "derivation_method": "img2img_remove_signs_of_life",
+      "generation_status": "not_started"
+    },
+    "A2_plate_destroyed": {
+      "description": "Alpine valley with bombed farmhouses, smoldering remains, ridged field overgrown",
+      "asset_path": "plates/A2_alpine_destroyed.png",
+      "derived_from": "A2_plate_evacuated",
+      "derivation_method": "img2img_destruction_pass",
+      "generation_status": "not_started"
+    },
+    "A2_plate_submerged": {
+      "description": "Alpine valley underwater. Murky greenish water, broken house silhouettes, dimming light",
+      "asset_path": "plates/A2_alpine_submerged.png",
+      "derived_from": "A2_plate_destroyed",
+      "derivation_method": "img2img_underwater_pass",
+      "generation_status": "not_started"
+    },
+    "A3_plate_chamber_thriving": {
+      "description": "Mars agricultural chamber interior. Hexagonal windows, growing pods receding, thriving colony visible outside",
+      "asset_path": "plates/A3_chamber_thriving.png",
+      "generation_status": "not_started",
+      "anchor_points_px": {
+        "primary_pod_center": [1920, 1680],
+        "ceiling_heat_lamp": [1920, 280],
+        "warning_light_rear": [3400, 600],
+        "primary_window_center": [2200, 900]
+      }
+    },
+    "A3_plate_chamber_decaying": {
+      "description": "Same chamber, colony outside visibly decayed, corroded buildings, fewer lights",
+      "asset_path": "plates/A3_chamber_decaying.png",
+      "derived_from": "A3_plate_chamber_thriving",
+      "derivation_method": "img2img_decay_pass",
+      "generation_status": "not_started"
+    },
+    "A3_plate_chamber_failing": {
+      "description": "Chamber under storm, dust intruding, warning light pulsing, glass cracking",
+      "asset_path": "plates/A3_chamber_failing.png",
+      "derived_from": "A3_plate_chamber_decaying",
+      "derivation_method": "img2img_storm_failure_pass",
+      "generation_status": "not_started"
+    },
+    "A3_plate_chamber_destroyed": {
+      "description": "Chamber collapsed. Broken hexagonal glass, bent metal, red dust covering everything",
+      "asset_path": "plates/A3_chamber_destroyed.png",
+      "derived_from": "A3_plate_chamber_failing",
+      "derivation_method": "img2img_aftermath_pass",
+      "generation_status": "not_started"
+    }
+  },
+
+  "soundscapes": {
+    "andean_valley_daylight_pristine": "Faint high-altitude wind through grass, very distant bird call",
+    "andean_valley_night_pristine": "Deeper wind, occasional distant stone click, no animal calls early",
+    "andean_valley_with_predator": "Sudden silence, then deep purring approach",
+    "andean_valley_eruption": "Deep tremor rumble, then volcanic explosion, ash particle fall",
+    "andean_valley_aftermath": "Quiet, faint wind, crumbly emergence sound",
+    "alpine_valley_daylight": "Distant cowbells, gentle river, occasional farm activity",
+    "alpine_valley_evening": "Muffled family laughter, dim ambient",
+    "alpine_valley_harvest": "Hoofbeats, metal rattle, subdued chatter",
+    "alpine_valley_military": "Truck engines, stake hammering, indistinct yelling, doors slamming",
+    "alpine_valley_aircraft": "1930s biplane engines, bomb whistle, distant explosions",
+    "alpine_valley_construction": "Off-screen construction soundscape, machinery",
+    "alpine_valley_flooding": "Water lapping, swelling river, submersion ambience",
+    "mars_chamber_stable": "Heat lamp electric buzz, periodic sprinkler hiss, quiet machinery",
+    "mars_chamber_decaying": "Same machinery but with skips, struggling lamp",
+    "mars_chamber_storm": "Distant dust storm rumble approaching, warning tone, glass strain",
+    "mars_chamber_collapse": "Glass crack, seal hiss, structural failure, then settling dust"
+  },
+
+  "acts": [
+    {
+      "act_id": "A1",
+      "title": "Andean Valley",
+      "approx_era": "mythic pre-Inca / Inca",
+      "location": "Andean valley with Sabancaya volcano",
+      "dominant_system": "natural_agricultural",
+      "system_defining_event": "volcanic_eruption"
+    },
+    {
+      "act_id": "A2",
+      "title": "Alpine Sihl Valley",
+      "approx_era": "1930s, pre-Sihlsee",
+      "location": "Alpine valley near Einsiedeln, Switzerland",
+      "dominant_system": "human_infrastructure",
+      "system_defining_event": "human_made_flooding"
+    },
+    {
+      "act_id": "A3",
+      "title": "Mars Agricultural Chamber",
+      "approx_era": "~2100",
+      "location": "Mars colony agricultural chamber",
+      "dominant_system": "technological_closed_system",
+      "system_defining_event": "chamber_collapse"
+    }
+  ],
+
+  "beats": [
+    {
+      "beat_id": "A1_B001",
+      "beat_name": "Fade in on untouched Andean valley",
+      "beat_order": 1,
+      "act_id": "A1",
+      "script_excerpt": "We FADE IN FROM BLACK to reveal a vast landscape in high altitude... a thin plume of smoke rises from [Sabancaya] to a vast, blue sky. In the foreground of our view lies an untouched patch of grass-covered soil.",
+      "script_summary": "Fade in. The pristine Andean valley is revealed. Sabancaya stands on the horizon with a thin smoke plume. The foreground shows bare grass-covered soil where the plant will emerge.",
+      "timing": {
+        "duration_sec": 5,
+        "time_mode": "real_time",
+        "tempo": "slow",
+        "transition_in": "fade_from_black",
+        "transition_in_duration_sec": 1.5,
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A1_plate_pristine",
+        "modifications": []
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "soil_patch",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_static",
+          "prompt": "close-on patch of grass-flecked Andean soil, slightly disturbed earth, sharp focus, macro detail, mythic high-altitude texture",
+          "negative_prompt": "potato plant, sprout, vegetation growth",
+          "alpha_strategy": "auto_segment",
+          "alpha_segmenter": "BiRefNet",
+          "alpha_feather_px": 2,
+          "blend_mode": "normal",
+          "opacity": 1.0,
+          "position_normalized": [0.5, 0.78],
+          "motion": "none"
+        },
+        {
+          "layer_id": "smoke_plume_calm",
+          "type": "event_effect",
+          "depth_band": "background",
+          "focus_state": "blurred_readable",
+          "z_index": 5,
+          "source": "render_motion",
+          "prompt": "thin pale smoke plume rising slowly from volcanic summit, vertical, dissipating into blue sky",
+          "negative_prompt": "thick smoke, ash cloud, eruption",
+          "alpha_strategy": "auto_segment",
+          "anchor_to_plate": true,
+          "anchor_point_id": "sabancaya_summit",
+          "blend_mode": "screen",
+          "opacity": 0.7,
+          "motion": "rise_slow_dissipate"
+        }
+      ],
+      "plant_state": {
+        "present": false,
+        "stage": "absent",
+        "condition": "none"
+      },
+      "human_presence": { "present": false },
+      "animal_presence": { "present": false },
+      "environment_state": {
+        "location_variant": "andean_valley_pristine",
+        "weather": "clear",
+        "light_state": "stable_daylight_high_altitude",
+        "time_of_day": "midday"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": {
+        "soundscape_id": "andean_valley_daylight_pristine",
+        "music_or_voice": "none"
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A1_plate_pristine",
+        "anchor_points_locked": ["sabancaya_summit", "foreground_soil_center"],
+        "next_beat_id": "A1_B002",
+        "next_beat_inherits_plate": true
+      },
+      "notes": {
+        "first_frame_of_film": true,
+        "risk_flags": ["smoke motion must be subtle, not stylized"]
+      }
+    },
+
+    {
+      "beat_id": "A1_B002",
+      "beat_name": "Sprout emerges and grows",
+      "beat_order": 2,
+      "act_id": "A1",
+      "script_excerpt": "There, our unlikely hero emerges: a POTATO PLANT SPROUT courageously pushes through the ground. Within seconds -- and by defying all laws of time -- the seedling grows into a stubborn, leaf-bushy plant.",
+      "script_summary": "Time-lapse: sprout pushes through soil, grows rapidly into a mature leaf-bushy plant. First appearance of the protagonist.",
+      "timing": {
+        "duration_sec": 6,
+        "time_mode": "time_lapse",
+        "tempo": "accelerated",
+        "transition_in": "cut",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A1_plate_pristine",
+        "modifications": ["subtle_time_passage_light_shift"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_growth_sequence",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "time-lapse potato plant growth from soil to mature plant, single stem to leaf-bushy, locked center, sharp focus",
+          "alpha_strategy": "auto_segment",
+          "alpha_segmenter": "BiRefNet",
+          "blend_mode": "normal",
+          "opacity": 1.0,
+          "position_normalized": [0.5, 0.78],
+          "motion": "growth_timelapse"
+        },
+        {
+          "layer_id": "smoke_plume_calm",
+          "type": "event_effect",
+          "depth_band": "background",
+          "anchor_to_plate": true,
+          "anchor_point_id": "sabancaya_summit",
+          "blend_mode": "screen",
+          "opacity": 0.7,
+          "motion": "rise_slow_dissipate"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "sprout_to_mature",
+        "condition": "healthy",
+        "visibility": "full",
+        "centered": true
+      },
+      "human_presence": { "present": false },
+      "animal_presence": { "present": false },
+      "environment_state": {
+        "location_variant": "andean_valley_pristine",
+        "weather": "clear",
+        "light_state": "stable_daylight_with_time_passage"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": {
+        "soundscape_id": "andean_valley_daylight_pristine",
+        "foreground_sounds": ["very_faint_growth_rustle"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A1_plate_pristine",
+        "continuity_reference_beat": "A1_B001",
+        "next_beat_id": "A1_B003"
+      }
+    },
+
+    {
+      "beat_id": "A1_B003",
+      "beat_name": "Flowering and bee visit",
+      "beat_order": 3,
+      "act_id": "A1",
+      "script_excerpt": "As the sun embraces it with warm light, the plant shows gratitude by developing a beautiful, violet flower... The bloom attracts a curious BEE, hovering into frame... drinking nectar from [the flowers].",
+      "script_summary": "Plant develops violet flowers under warm afternoon light. A bee enters, inspects, and feeds from the blooms. As the sun sets, the bee leaves, the flowers fade, leaves thicken, soil swells.",
+      "timing": {
+        "duration_sec": 8,
+        "time_mode": "accelerated",
+        "tempo": "medium",
+        "transition_in": "cut",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A1_plate_pristine",
+        "modifications": ["warm_afternoon_grade"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_flowering",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "mature potato plant developing violet flowers with yellow centers, gentle warm late-afternoon light, sharp focus, locked center",
+          "alpha_strategy": "auto_segment",
+          "blend_mode": "normal",
+          "opacity": 1.0,
+          "motion": "flower_bloom_then_fade"
+        },
+        {
+          "layer_id": "bee",
+          "type": "foreground_actor",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 11,
+          "source": "render_motion",
+          "prompt": "single honeybee hovering near violet potato flower, motion-blurred wings, sharp body, feeding pose",
+          "alpha_strategy": "auto_segment",
+          "blend_mode": "normal",
+          "opacity": 1.0,
+          "motion": "hover_feed_then_leave"
+        },
+        {
+          "layer_id": "smoke_plume_calm",
+          "type": "event_effect",
+          "depth_band": "background",
+          "anchor_to_plate": true,
+          "anchor_point_id": "sabancaya_summit",
+          "blend_mode": "screen",
+          "opacity": 0.7
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "flowering_to_post_flower",
+        "condition": "healthy",
+        "flowers_visible": true
+      },
+      "animal_presence": {
+        "present": true,
+        "species": ["bee"],
+        "visibility_mode": "full_but_small",
+        "action": "pollination"
+      },
+      "environment_state": {
+        "location_variant": "andean_valley_pristine",
+        "light_state": "warm_afternoon_to_dusk"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": {
+        "soundscape_id": "andean_valley_daylight_pristine",
+        "foreground_sounds": ["bee_hover"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A1_plate_pristine",
+        "continuity_reference_beat": "A1_B002",
+        "next_beat_id": "A1_B004"
+      }
+    },
+
+    {
+      "beat_id": "A1_B004",
+      "beat_name": "Night falls, llama approaches",
+      "beat_order": 4,
+      "act_id": "A1",
+      "script_excerpt": "Night falls and a bright moon rises, shedding cold light... we begin to hear SOUNDS of toe-nailed paws approaching. And after a moment, four sure-footed, slender legs enter the frame, slowly approaching the potato plant... A LLAMA!",
+      "script_summary": "Night, moonlit valley. Approaching toe-nailed paw sounds. Llama enters partially — slender legs, lowered head sniffing the plant.",
+      "timing": {
+        "duration_sec": 7,
+        "time_mode": "real_time",
+        "tempo": "slow",
+        "transition_in": "fade_to_night",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A1_plate_pristine",
+        "modifications": ["night_moonlight_grade", "cool_silver_blue_tint"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_night",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "mature potato plant at night, edge-lit by cool moonlight, post-flower swollen leaves, sharp focus, locked center",
+          "alpha_strategy": "auto_segment",
+          "blend_mode": "normal",
+          "opacity": 1.0
+        },
+        {
+          "layer_id": "llama_partial",
+          "type": "foreground_actor",
+          "depth_band": "midground",
+          "focus_state": "softening",
+          "z_index": 9,
+          "source": "render_motion",
+          "prompt": "four slender woolly llama legs and lowered woolly head sniffing potato plant, padded toes not hooves, dark nails, partial body, night moonlight",
+          "negative_prompt": "hooves, horse, full body, face centered",
+          "alpha_strategy": "auto_segment",
+          "blend_mode": "normal",
+          "opacity": 1.0,
+          "motion": "approach_then_sniff"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "post_flower_mature",
+        "condition": "healthy"
+      },
+      "animal_presence": {
+        "present": true,
+        "species": ["llama"],
+        "visibility_mode": "partial",
+        "body_parts_visible": ["legs", "lowered_head"],
+        "action": "sniffing_plant"
+      },
+      "environment_state": {
+        "location_variant": "andean_valley_pristine_night",
+        "weather": "clear",
+        "light_state": "bright_moonlight",
+        "time_of_day": "night"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": {
+        "soundscape_id": "andean_valley_night_pristine",
+        "midground_sounds": ["toe_nailed_paws_approaching"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A1_plate_pristine",
+        "continuity_reference_beat": "A1_B003",
+        "next_beat_id": "A1_B005"
+      },
+      "notes": {
+        "risk_flags": ["llama anatomy: padded toes not hooves; partial only"]
+      }
+    },
+
+    {
+      "beat_id": "A1_B005",
+      "beat_name": "Llama flees, puma passes",
+      "beat_order": 5,
+      "act_id": "A1",
+      "script_excerpt": "The Llama's head instinctively shoots up... Then they SPRINT OFF... A deep, hungry PURR emerges... the legs of a PUMA stalk by; merely brushing the plant with its flank as it trails its prey.",
+      "script_summary": "Llama senses danger, flees off-frame. Eerie silence. A puma stalks past, brushing the plant's leaves with its flank.",
+      "timing": {
+        "duration_sec": 8,
+        "time_mode": "real_time",
+        "tempo": "tense",
+        "transition_in": "cut",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A1_plate_pristine",
+        "modifications": ["night_moonlight_grade"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_night",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "motion": "leaves_disturbed_by_passing_flank"
+        },
+        {
+          "layer_id": "puma_partial",
+          "type": "foreground_actor",
+          "depth_band": "midground",
+          "focus_state": "softening",
+          "z_index": 9,
+          "source": "render_motion",
+          "prompt": "puma flank shoulder and lower legs passing left to right, tawny muscular fur catching cool moonlight, padded paws, retracted claws, low predatory stride, brushing potato plant leaves",
+          "negative_prompt": "full body, face, centered",
+          "alpha_strategy": "auto_segment",
+          "blend_mode": "normal",
+          "opacity": 1.0,
+          "motion": "pass_left_to_right"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "post_flower_mature",
+        "condition": "leaves_disturbed"
+      },
+      "animal_presence": {
+        "present": true,
+        "species": ["puma"],
+        "visibility_mode": "partial",
+        "body_parts_visible": ["flank", "shoulder", "lower_legs"],
+        "action": "stalking_past"
+      },
+      "environment_state": {
+        "location_variant": "andean_valley_pristine_night",
+        "light_state": "bright_moonlight"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": {
+        "soundscape_id": "andean_valley_with_predator",
+        "midground_sounds": ["llama_sprint_off", "eerie_silence"],
+        "background_sounds": ["deep_puma_purr_approaching_then_fading"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A1_plate_pristine",
+        "continuity_reference_beat": "A1_B004",
+        "next_beat_id": "A1_B006"
+      }
+    },
+
+    {
+      "beat_id": "A1_B006",
+      "beat_name": "Llama returns, digs, reveals potatoes",
+      "beat_order": 6,
+      "act_id": "A1",
+      "script_excerpt": "the SOUNDS of toe-nailed paws approach yet again... the sneaky, courageous Llama returns!... it begins to loosen the ground with its paws... PAPAS, bathed in moonlight.",
+      "script_summary": "Llama returns cautiously, sniffs plant, digs with paws, revealing small Andean papas in the moonlit soil. Begins to munch.",
+      "timing": {
+        "duration_sec": 9,
+        "time_mode": "real_time",
+        "tempo": "slow_tense",
+        "transition_in": "cut",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A1_plate_pristine",
+        "modifications": ["night_moonlight_grade"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_night_uprooting",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "potato plant at night, soil being disturbed at base, small rugged Andean papas being revealed in moonlight, partial roots exposed",
+          "motion": "soil_disturbance_papas_reveal"
+        },
+        {
+          "layer_id": "llama_digging",
+          "type": "foreground_actor",
+          "depth_band": "midground",
+          "focus_state": "softening",
+          "z_index": 9,
+          "source": "render_motion",
+          "prompt": "llama legs and lowered head digging into soil with paws, partial body, padded toes pushing earth, moonlit",
+          "alpha_strategy": "auto_segment",
+          "motion": "dig_and_munch"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "uprooted_partially",
+        "condition": "exposed_papas",
+        "potatoes_visible": true,
+        "roots_visible": true
+      },
+      "animal_presence": {
+        "present": true,
+        "species": ["llama"],
+        "action": "digging_and_eating"
+      },
+      "environment_state": {
+        "location_variant": "andean_valley_pristine_night",
+        "soil_state": "disturbed_revealing_papas"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": {
+        "soundscape_id": "andean_valley_night_pristine",
+        "foreground_sounds": ["soft_munching", "soil_movement"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A1_plate_pristine",
+        "continuity_reference_beat": "A1_B005",
+        "next_beat_id": "A1_B007"
+      }
+    },
+
+    {
+      "beat_id": "A1_B007",
+      "beat_name": "Puma attacks, llama killed off-screen",
+      "beat_order": 7,
+      "act_id": "A1",
+      "script_excerpt": "with a FIERCE ROAR, the puma leaps into frame out of nowhere, attacking its prey... we hear the chilling SOUNDS of a Llama being MAULED TO DEATH in the distance.",
+      "script_summary": "Sudden puma roar and lunge. Llama escapes off-frame. Both animals chase out of view. We hear the off-screen kill while staring at the disturbed plant.",
+      "timing": {
+        "duration_sec": 6,
+        "time_mode": "real_time",
+        "tempo": "violent_then_still",
+        "transition_in": "cut",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A1_plate_pristine",
+        "modifications": ["night_moonlight_grade"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_night_uprooting",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "motion": "violent_disturbance_then_still"
+        },
+        {
+          "layer_id": "puma_lunge_blur",
+          "type": "foreground_actor",
+          "depth_band": "midground",
+          "focus_state": "softening",
+          "z_index": 9,
+          "source": "render_motion",
+          "prompt": "puma leaping across frame in violent motion blur, partial body, claws extended, attacking off-screen",
+          "alpha_strategy": "auto_segment",
+          "motion": "lunge_exit_frame"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "uprooted_partially",
+        "condition": "exposed_papas_disturbed"
+      },
+      "animal_presence": {
+        "present": true,
+        "species": ["puma", "llama"],
+        "action": "attack_and_flee_offscreen",
+        "implied_offscreen_event": "llama_kill"
+      },
+      "sound_state": {
+        "soundscape_id": "andean_valley_with_predator",
+        "foreground_sounds": ["fierce_puma_roar"],
+        "offscreen_action_sounds": ["llama_mauled_to_death", "chase_recede"]
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A1_plate_pristine",
+        "continuity_reference_beat": "A1_B006",
+        "next_beat_id": "A1_B008"
+      },
+      "notes": {
+        "risk_flags": ["the violence is sound-led; the kill never enters frame"]
+      }
+    },
+
+    {
+      "beat_id": "A1_B008",
+      "beat_name": "Andean woman discovers and harvests plant",
+      "beat_order": 8,
+      "act_id": "A1",
+      "script_excerpt": "we hear the HUMMING of a WOMAN approaching... her rugged, deep brown-skinned hands hesitantly dive into frame, down to the papas... they grab the plant by its lower stems and rip it from the ground.",
+      "script_summary": "Day breaks. A humming Andean woman arrives. Her partial body (woven garment, rugged hands) enters frame. She pulls the plant up by the stems; papas dangle from the roots.",
+      "timing": {
+        "duration_sec": 8,
+        "time_mode": "real_time",
+        "tempo": "calm_ritual",
+        "transition_in": "fade_to_dawn",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A1_plate_pristine",
+        "modifications": ["soft_morning_grade"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_being_pulled",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "potato plant mid-pull from soil, roots exposed, small Andean papas dangling from root system, morning light",
+          "motion": "pulled_upward"
+        },
+        {
+          "layer_id": "andean_woman_partial",
+          "type": "foreground_actor",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 11,
+          "source": "render_motion",
+          "prompt": "two rugged brown-skinned hands and forearms entering frame from above, colorful woven Andean llama-fiber garment cuffs in earth red ochre cobalt blue, gripping plant stems",
+          "negative_prompt": "face, full body, modern clothing",
+          "alpha_strategy": "auto_segment",
+          "motion": "grip_and_pull"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "harvested",
+        "condition": "uprooted",
+        "potatoes_visible": true,
+        "roots_visible": true
+      },
+      "human_presence": {
+        "present": true,
+        "visibility_mode": "partial",
+        "body_parts_visible": ["hands", "forearms"],
+        "garment_description": "colorful woven Andean llama-fiber, earth red ochre cobalt blue",
+        "action": "harvesting"
+      },
+      "environment_state": {
+        "location_variant": "andean_valley_pristine",
+        "light_state": "soft_morning",
+        "time_of_day": "dawn_to_morning"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": {
+        "soundscape_id": "andean_valley_daylight_pristine",
+        "foreground_sounds": ["woman_humming", "soil_disturbance"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A1_plate_pristine",
+        "continuity_reference_beat": "A1_B007",
+        "next_beat_id": "A1_B009"
+      },
+      "notes": {
+        "risk_flags": ["no face visible; garment must read as pre-Inca/Andean, not generic"]
+      }
+    },
+
+    {
+      "beat_id": "A1_B009",
+      "beat_name": "Time ramp: humans carve terraces",
+      "beat_order": 9,
+      "act_id": "A1",
+      "script_excerpt": "the speed of time ramps up... HUMANS begin to carve agricultural terraces into the mountain slopes.",
+      "script_summary": "Time accelerates. Days and nights cycle. A small bonfire ignites on a distant slope, then humans carve terraces into the mountainsides. Sabancaya's plumes thicken. The foreground soil heals and regrows.",
+      "timing": {
+        "duration_sec": 8,
+        "time_mode": "time_lapse",
+        "tempo": "rapid_acceleration",
+        "transition_in": "cut",
+        "transition_out": "decelerate_into_next"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A1_plate_pristine",
+        "transitions_to_plate": "A1_plate_terraced",
+        "modifications": ["time_lapse_day_night_cycle", "darkening_smoke_progression"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "soil_regrowth_cycle",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "soil patch healing and small potato plant regrowing at center, repeated cycles, time-lapse",
+          "motion": "regrowth_cycles"
+        },
+        {
+          "layer_id": "background_terracing_progression",
+          "type": "event_effect",
+          "depth_band": "background",
+          "focus_state": "blurred_readable",
+          "z_index": 4,
+          "source": "render_motion",
+          "prompt": "blurred distant human figures carving agricultural terraces into mountain slopes over time, time-lapse, low contrast",
+          "blend_mode": "normal",
+          "motion": "terraces_appear_over_time"
+        },
+        {
+          "layer_id": "smoke_plume_thickening",
+          "type": "event_effect",
+          "depth_band": "background",
+          "anchor_to_plate": true,
+          "anchor_point_id": "sabancaya_summit",
+          "blend_mode": "normal",
+          "opacity": 0.85,
+          "motion": "smoke_grows_darker_thicker"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "cyclical_regrowth",
+        "condition": "healthy"
+      },
+      "human_presence": {
+        "present": true,
+        "visibility_mode": "background_blurred",
+        "action": "terrace_construction"
+      },
+      "environment_state": {
+        "location_variant": "andean_valley_transitioning_to_terraced",
+        "light_state": "time_lapse_day_night"
+      },
+      "event_state": {
+        "event_active": false,
+        "event_signals": ["thickening_volcanic_smoke"],
+        "system_status": "stable_but_transforming"
+      },
+      "sound_state": {
+        "soundscape_id": "andean_valley_daylight_pristine",
+        "background_sounds": ["faint_distant_human_construction"]
+      },
+      "continuity_contract": {
+        "plate_transition_in_progress": true,
+        "from_plate": "A1_plate_pristine",
+        "to_plate": "A1_plate_terraced",
+        "continuity_reference_beat": "A1_B008",
+        "next_beat_id": "A1_B010",
+        "next_beat_inherits_plate": "A1_plate_terraced"
+      },
+      "notes": {
+        "implementation_note": "Plate transition handled via cross-dissolve between pristine and terraced plates. Foreground anchor remains identical."
+      }
+    },
+
+    {
+      "beat_id": "A1_B010",
+      "beat_name": "Volcanic warning",
+      "beat_order": 10,
+      "act_id": "A1",
+      "script_excerpt": "Dark, think molasses-like plumes of smoke escape from Sabancaya's peak. Tremors SHAKE the ground; violently wiggling the leaves of our plant.",
+      "script_summary": "Time stills on one gloomy day. Sabancaya emits dark heavy smoke. Ground tremors shake the plant's leaves. Heavy volcanic sounds. Then sudden silence.",
+      "timing": {
+        "duration_sec": 6,
+        "time_mode": "real_time",
+        "tempo": "ominous",
+        "transition_in": "decelerate_into",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A1_plate_terraced",
+        "modifications": ["ominous_grade", "darker_sky"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_trembling",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "mature potato plant on terraced soil, leaves trembling violently from ground tremor, sharp focus",
+          "motion": "violent_tremor_shake"
+        },
+        {
+          "layer_id": "smoke_plume_heavy",
+          "type": "event_effect",
+          "depth_band": "background",
+          "anchor_to_plate": true,
+          "anchor_point_id": "sabancaya_summit",
+          "source": "render_motion",
+          "prompt": "thick dark molasses-like smoke escaping volcanic summit, rising heavily",
+          "blend_mode": "normal",
+          "opacity": 0.95,
+          "motion": "heavy_smoke_rising"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "mature",
+        "condition": "trembling",
+        "trembling": true
+      },
+      "environment_state": {
+        "location_variant": "andean_valley_terraced",
+        "weather": "ash_air",
+        "light_state": "volcanic_grey"
+      },
+      "event_state": {
+        "event_active": true,
+        "event_type": "volcanic_eruption",
+        "event_phase": "approach",
+        "event_signals": ["heavy_smoke", "ground_tremor"],
+        "system_status": "strained"
+      },
+      "sound_state": {
+        "soundscape_id": "andean_valley_eruption",
+        "background_sounds": ["deep_volcanic_rumble", "ground_tremor"],
+        "transition_to_silence_at_end": true
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A1_plate_terraced",
+        "continuity_reference_beat": "A1_B009",
+        "next_beat_id": "A1_B011"
+      }
+    },
+
+    {
+      "beat_id": "A1_B011",
+      "beat_name": "Sabancaya erupts",
+      "beat_order": 11,
+      "act_id": "A1",
+      "script_excerpt": "massive vertical eruptions EXPLODE from Sabancaya. A giant pillar of gas and ash pushes upward; within it, deadly, volcanic lightning flickers. A pyroclastic wave races towards us...",
+      "script_summary": "Sudden silence breaks with massive eruption. Vertical ash pillar with volcanic lightning. Pyroclastic wave races down slopes toward camera, incinerating everything. Cuts to darkness.",
+      "timing": {
+        "duration_sec": 7,
+        "time_mode": "real_time",
+        "tempo": "catastrophic",
+        "transition_in": "silence_burst",
+        "transition_out": "cut_to_darkness"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A1_plate_terraced",
+        "modifications": ["darker", "ash_haze_overlay", "heat_shimmer"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_violent_tremor",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "potato plant in extreme tremor, leaves whipping, then engulfed by darkness at end",
+          "motion": "extreme_tremor_then_engulfed"
+        },
+        {
+          "layer_id": "eruption_pillar",
+          "type": "event_effect",
+          "depth_band": "background",
+          "focus_state": "blurred_readable",
+          "z_index": 5,
+          "source": "render_motion",
+          "anchor_to_plate": true,
+          "anchor_point_id": "sabancaya_summit",
+          "prompt": "colossal vertical volcanic ash pillar, dark grey black, mushrooming, rising miles into sky",
+          "alpha_strategy": "auto_segment",
+          "blend_mode": "normal",
+          "opacity": 1.0,
+          "motion": "explosive_vertical_rise"
+        },
+        {
+          "layer_id": "lightning_flicker",
+          "type": "event_effect",
+          "depth_band": "background",
+          "z_index": 6,
+          "source": "render_motion",
+          "anchor_to_plate": true,
+          "anchor_point_id": "sabancaya_summit",
+          "prompt": "sharp white-blue volcanic lightning flickering within ash column",
+          "blend_mode": "add",
+          "opacity": 0.9,
+          "motion": "intermittent_flicker"
+        },
+        {
+          "layer_id": "pyroclastic_wave",
+          "type": "event_effect",
+          "depth_band": "background",
+          "z_index": 7,
+          "source": "render_motion",
+          "anchor_to_plate": true,
+          "anchor_point_id": "sabancaya_base",
+          "prompt": "incandescent pyroclastic wave racing down mountain slopes toward camera, grey and orange surge",
+          "blend_mode": "normal",
+          "opacity": 1.0,
+          "motion": "approach_camera_fast"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "mature",
+        "condition": "violent_tremor_then_incinerated",
+        "damage_percent": 100
+      },
+      "environment_state": {
+        "location_variant": "andean_valley_erupting",
+        "weather": "ash_explosion",
+        "light_state": "volcanic_orange_grey"
+      },
+      "event_state": {
+        "event_active": true,
+        "event_type": "volcanic_eruption",
+        "event_phase": "peak",
+        "event_signals": ["ash_pillar", "lightning", "pyroclastic_wave"],
+        "system_status": "collapsed"
+      },
+      "sound_state": {
+        "soundscape_id": "andean_valley_eruption",
+        "background_sounds": ["volcanic_explosion", "pyroclastic_roar"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A1_plate_terraced",
+        "anchor_points_locked": ["sabancaya_summit", "sabancaya_base"],
+        "continuity_reference_beat": "A1_B010",
+        "next_beat_id": "A1_B012"
+      }
+    },
+
+    {
+      "beat_id": "A1_B012",
+      "beat_name": "Aftermath and seedling rebirth, transition to Act 2",
+      "beat_order": 12,
+      "act_id": "A1",
+      "script_excerpt": "Only to reveal the charred remains of the valley... A green potato SEEDLING pushes through the crusted earth! ... the stacked mountain slopes and ridges behind it SWOOSH with ROARING SOUNDS to the side like layered flats of a puppeteer theatre being swapped for a new scene.",
+      "script_summary": "Long silence. Sun rays pierce ash. Charred valley revealed. A green potato seedling pushes through the cinder. Then mountain layers slide aside theatrically, transitioning to Act 2.",
+      "timing": {
+        "duration_sec": 10,
+        "time_mode": "real_time",
+        "tempo": "quiet_then_transition",
+        "transition_in": "fade_from_black",
+        "transition_in_duration_sec": 2.0,
+        "transition_out": "layered_flats_slide_to_A2",
+        "transition_out_duration_sec": 2.5
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A1_plate_charred",
+        "modifications": ["heavy_ash_haze", "weak_sun_rays"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "seedling_emergence",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "single fragile bright green potato seedling with two small leaves unfurling, pushing through cracked black grey volcanic ash crust, sharp focus",
+          "motion": "emerge_from_ash"
+        },
+        {
+          "layer_id": "mountain_flats_sliding",
+          "type": "transition_effect",
+          "depth_band": "background",
+          "z_index": 4,
+          "source": "render_motion",
+          "prompt": "layered Andean mountain ridges sliding sideways like flat painted theatre panels, revealing Alpine valley behind",
+          "motion": "slide_off_horizontally"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "sprout",
+        "condition": "regrowing"
+      },
+      "environment_state": {
+        "location_variant": "andean_valley_charred_to_alpine_transition",
+        "soil_state": "cracked_black_ash",
+        "weather": "hanging_ash_haze",
+        "light_state": "weak_sun_through_ash"
+      },
+      "event_state": {
+        "event_active": true,
+        "event_type": "volcanic_eruption",
+        "event_phase": "aftermath",
+        "system_status": "collapsed_then_rebirth"
+      },
+      "sound_state": {
+        "soundscape_id": "andean_valley_aftermath",
+        "foreground_sounds": ["seedling_crumbly_emergence"],
+        "transition_sounds": ["theatrical_flat_slide_swoosh"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A1_plate_charred",
+        "continuity_reference_beat": "A1_B011",
+        "next_beat_id": "A2_B001",
+        "next_beat_inherits_anchor": true,
+        "transition_type": "layered_flat_swap"
+      }
+    },
+
+    {
+      "beat_id": "A2_B001",
+      "beat_name": "Alpine valley revealed, seedling morphs into Swiss field",
+      "beat_order": 13,
+      "act_id": "A2",
+      "script_excerpt": "the tectonic layers of the land are exchanged with those of a valley nestled at the feet of the majestic Alps. The soil along with the previously emerged seedling MORPHS from the wild Andean patch of land to a carefully maintained field.",
+      "script_summary": "Layered flats reveal an Alpine valley near Einsiedeln. The Andean seedling morphs into a cultivated Swiss potato field, with rows of other plants alongside.",
+      "timing": {
+        "duration_sec": 5,
+        "time_mode": "real_time",
+        "tempo": "transitional",
+        "transition_in": "layered_flats_settling",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A2_plate_pristine",
+        "modifications": []
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "seedling_morph_to_swiss",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "potato seedling on soil morphing from wild Andean grass-flecked earth to cultivated Swiss tilled soil row, ridges and furrows appearing",
+          "motion": "soil_terrain_morph"
+        },
+        {
+          "layer_id": "neighbor_plants_appearing",
+          "type": "midground_subject",
+          "depth_band": "midground",
+          "focus_state": "softening",
+          "z_index": 8,
+          "source": "render_motion",
+          "prompt": "rows of additional potato sprouts appearing along ridges in soft focus, neat alignment",
+          "motion": "fade_in_neighbor_rows"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "sprout",
+        "condition": "healthy"
+      },
+      "environment_state": {
+        "location_variant": "alpine_valley_einsiedeln_1930s",
+        "soil_state": "tilled_ridged",
+        "weather": "overcast_alpine",
+        "light_state": "soft_overcast"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": {
+        "soundscape_id": "alpine_valley_daylight"
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A2_plate_pristine",
+        "continuity_reference_beat": "A1_B012",
+        "next_beat_id": "A2_B002"
+      }
+    },
+
+    {
+      "beat_id": "A2_B002",
+      "beat_name": "Swiss field growth and flowering",
+      "beat_order": 14,
+      "act_id": "A2",
+      "script_excerpt": "Once again, defying the laws of time, the sprout grows before our eyes into a full-sized potato plant, while the others follow suit. The plants produce beautiful flowers...",
+      "script_summary": "Time-lapse: central plant and surrounding rows grow into mature plants, flower, then leaves thicken and soil swells.",
+      "timing": {
+        "duration_sec": 7,
+        "time_mode": "time_lapse",
+        "tempo": "accelerated",
+        "transition_in": "cut",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A2_plate_pristine",
+        "modifications": ["time_lapse_light_cycle"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_growth_to_flowering",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "Swiss potato plant growing from sprout to mature, then flowering with white-violet flowers, time-lapse, locked center",
+          "motion": "growth_and_flower"
+        },
+        {
+          "layer_id": "neighbor_plants_growing",
+          "type": "midground_subject",
+          "depth_band": "midground",
+          "focus_state": "softening",
+          "z_index": 8,
+          "source": "render_motion",
+          "motion": "synchronized_growth_rows"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "sprout_to_post_flower",
+        "condition": "healthy",
+        "flowers_visible": true
+      },
+      "environment_state": {
+        "location_variant": "alpine_valley_einsiedeln_1930s",
+        "light_state": "time_lapse_overcast"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": {
+        "soundscape_id": "alpine_valley_daylight"
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A2_plate_pristine",
+        "continuity_reference_beat": "A2_B001",
+        "next_beat_id": "A2_B003"
+      }
+    },
+
+    {
+      "beat_id": "A2_B003",
+      "beat_name": "Evening: electric homes, full moon",
+      "beat_order": 15,
+      "act_id": "A2",
+      "script_excerpt": "Evening falls. The houses' windows illuminate from dim, flickering electric light. We hear muffled laughter... Meanwhile the river, tame and gentle, reflects a full moon.",
+      "script_summary": "Evening atmosphere. Farmhouse windows glow with dim electric light. Muffled laughter from a celebration. Full moon over the tame river.",
+      "timing": {
+        "duration_sec": 6,
+        "time_mode": "real_time",
+        "tempo": "calm_pastoral",
+        "transition_in": "fade_to_evening",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A2_plate_pristine",
+        "modifications": ["evening_grade", "warm_window_lights_active", "full_moon_overlay"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_evening",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "post-flower potato plant in evening Alpine field, soft moonlight"
+        },
+        {
+          "layer_id": "warm_window_glows",
+          "type": "atmosphere",
+          "depth_band": "background",
+          "anchor_to_plate": true,
+          "anchor_point_id": "primary_farmhouse",
+          "blend_mode": "screen",
+          "opacity": 0.8,
+          "motion": "flicker_subtle"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "post_flower_mature",
+        "condition": "healthy"
+      },
+      "environment_state": {
+        "location_variant": "alpine_valley_einsiedeln_evening",
+        "light_state": "evening_with_artificial_lights",
+        "time_of_day": "evening_to_night"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": {
+        "soundscape_id": "alpine_valley_evening",
+        "background_sounds": ["muffled_family_laughter"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A2_plate_pristine",
+        "continuity_reference_beat": "A2_B002",
+        "next_beat_id": "A2_B004"
+      }
+    },
+
+    {
+      "beat_id": "A2_B004",
+      "beat_name": "Horse-drawn potato digger harvest",
+      "beat_order": 16,
+      "act_id": "A2",
+      "script_excerpt": "the muscular legs of a WORK HORSE trot by from left to right across frame, followed by a pulled harness with metal blades cutting across the ridges... the hands and legs of a FARMER and his WIFE dip into frame, removing the potatoes from the soil.",
+      "script_summary": "Day. Work horse legs trot past pulling a 1930s metal potato digger. Ridges open, potatoes exposed. Farmer and wife's partial bodies harvest into baskets.",
+      "timing": {
+        "duration_sec": 8,
+        "time_mode": "real_time",
+        "tempo": "working",
+        "transition_in": "cut_to_day",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A2_plate_pristine",
+        "modifications": ["working_day_grade"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_being_dug",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "Swiss potato plant being unearthed by metal digger blade, pale yellow potatoes exposed in dark soil",
+          "motion": "unearthing"
+        },
+        {
+          "layer_id": "horse_and_digger",
+          "type": "midground_actor",
+          "depth_band": "midground",
+          "focus_state": "softening",
+          "z_index": 8,
+          "source": "render_motion",
+          "prompt": "muscular brown work horse lower legs trotting left to right, leather harness chains, 1930s iron potato digger blade cutting soil ridge",
+          "negative_prompt": "full horse, modern tractor, horse face",
+          "alpha_strategy": "auto_segment",
+          "motion": "trot_pass_left_to_right"
+        },
+        {
+          "layer_id": "farmer_couple_hands",
+          "type": "foreground_actor",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 11,
+          "source": "render_motion",
+          "prompt": "two pairs of human hands entering frame, weathered farmer hands and wife hands with linen sleeve, gathering pale potatoes into woven baskets",
+          "negative_prompt": "faces",
+          "alpha_strategy": "auto_segment",
+          "motion": "gather_into_baskets"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "harvested",
+        "condition": "uprooted",
+        "potatoes_visible": true
+      },
+      "human_presence": {
+        "present": true,
+        "visibility_mode": "partial",
+        "body_parts_visible": ["hands", "forearms"],
+        "action": "harvesting"
+      },
+      "animal_presence": {
+        "present": true,
+        "species": ["work_horse"],
+        "visibility_mode": "partial",
+        "body_parts_visible": ["legs"]
+      },
+      "environment_state": {
+        "location_variant": "alpine_valley_einsiedeln_1930s",
+        "light_state": "soft_overcast_day"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": {
+        "soundscape_id": "alpine_valley_harvest",
+        "midground_sounds": ["hoofbeats", "metal_digger_rattle"],
+        "foreground_sounds": ["subdued_chatter", "potato_thuds_into_basket"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A2_plate_pristine",
+        "continuity_reference_beat": "A2_B003",
+        "next_beat_id": "A2_B005"
+      },
+      "notes": {
+        "risk_flags": ["no modern tractor; horse-drawn 1930s digger only"]
+      }
+    },
+
+    {
+      "beat_id": "A2_B005",
+      "beat_name": "Time ramp: regrowth and the next harvest cycle approaching",
+      "beat_order": 17,
+      "act_id": "A2",
+      "script_excerpt": "Time accelerates yet again... the accelerated succession of days and nights; sun and rain... ignites yet again until another full field of potato plant seedlings has grown.",
+      "script_summary": "Time-lapse: harvest completes, field regrows, days and nights cycle, new seedlings emerge. The next harvest approaches.",
+      "timing": {
+        "duration_sec": 6,
+        "time_mode": "time_lapse",
+        "tempo": "accelerated",
+        "transition_in": "cut",
+        "transition_out": "decelerate"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A2_plate_pristine",
+        "modifications": ["time_lapse_day_night_cycle"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "field_regrowth_cycle",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "potato field harvest aftermath cycling through regrowth, time-lapse, central plant regrowing",
+          "motion": "regrowth_cycles"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "cyclical_regrowth",
+        "condition": "healthy"
+      },
+      "environment_state": {
+        "location_variant": "alpine_valley_einsiedeln_1930s",
+        "light_state": "time_lapse_day_night"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": { "soundscape_id": "alpine_valley_daylight" },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A2_plate_pristine",
+        "continuity_reference_beat": "A2_B004",
+        "next_beat_id": "A2_B006"
+      }
+    },
+
+    {
+      "beat_id": "A2_B006",
+      "beat_name": "Military truck and evacuation sign",
+      "beat_order": 18,
+      "act_id": "A2",
+      "script_excerpt": "A military truck in complete disregard of the fragile sprouts, CRUNCHES its tires across the frame... A stake is RAMMED into the ground... 'DAMMBAU - EVAKUIERUNGSZONE'",
+      "script_summary": "A military truck crushes sprouts at frame edge. A soldier's legs jump out. A wooden stake with the evacuation sign 'DAMMBAU - EVAKUIERUNGSZONE' is hammered into the ground next to the plant.",
+      "timing": {
+        "duration_sec": 8,
+        "time_mode": "real_time",
+        "tempo": "abrupt_bureaucratic",
+        "transition_in": "decelerate_into",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A2_plate_pristine",
+        "modifications": ["overcast_grade"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_threatened_by_tires",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "motion": "subtle_tremor_from_truck"
+        },
+        {
+          "layer_id": "military_truck_tires",
+          "type": "midground_actor",
+          "depth_band": "midground",
+          "focus_state": "softening",
+          "z_index": 8,
+          "source": "render_motion",
+          "prompt": "1930s Swiss military truck tires crushing potato sprouts at frame edge, partial vehicle",
+          "alpha_strategy": "auto_segment",
+          "motion": "tires_crunch_pass"
+        },
+        {
+          "layer_id": "soldier_legs_and_stake",
+          "type": "foreground_actor",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 11,
+          "source": "render_motion",
+          "prompt": "Swiss 1930s soldier lower legs in military boots and woolen trousers, hammering wooden stake into soil, red and yellow striped warning sign with German text DAMMBAU EVAKUIERUNGSZONE",
+          "negative_prompt": "face",
+          "alpha_strategy": "auto_segment",
+          "motion": "hammer_stake_down"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "sprout_field",
+        "condition": "threatened"
+      },
+      "human_presence": {
+        "present": true,
+        "visibility_mode": "partial",
+        "body_parts_visible": ["legs"],
+        "action": "placing_sign"
+      },
+      "environment_state": {
+        "location_variant": "alpine_valley_einsiedeln_1930s",
+        "weather": "overcast"
+      },
+      "event_state": {
+        "event_active": true,
+        "event_type": "human_made_flooding",
+        "event_phase": "approach",
+        "event_signals": ["evacuation_sign", "military_arrival"],
+        "system_status": "strained"
+      },
+      "sound_state": {
+        "soundscape_id": "alpine_valley_military",
+        "foreground_sounds": ["stake_hammering", "tire_crunch"],
+        "background_sounds": ["truck_engines"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A2_plate_pristine",
+        "continuity_reference_beat": "A2_B005",
+        "next_beat_id": "A2_B007"
+      },
+      "notes": {
+        "risk_flags": ["sign text must be legible; may need separate render and composite"]
+      }
+    },
+
+    {
+      "beat_id": "A2_B007",
+      "beat_name": "Evacuation of village",
+      "beat_order": 19,
+      "act_id": "A2",
+      "script_excerpt": "we hear DOOR KNOCKS; then, INDISTINCT YELLING, the CRYING OF A BABY; doors being SLAMMED. We only see them as small and blurry figures, but we can make out FAMILIES being escorted out of their houses and into the trucks.",
+      "script_summary": "From the locked plant view, distant blurry figures show families being escorted from homes into trucks by soldiers. Sound carries the bureaucratic violence. Trucks drive off. Night falls, mute.",
+      "timing": {
+        "duration_sec": 9,
+        "time_mode": "real_time",
+        "tempo": "bureaucratic",
+        "transition_in": "cut",
+        "transition_out": "fade_to_mute_night"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A2_plate_pristine",
+        "modifications": ["overcast_grade", "subtle_unrest"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_unattended",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion"
+        },
+        {
+          "layer_id": "distant_evacuation",
+          "type": "event_effect",
+          "depth_band": "background",
+          "focus_state": "blurred_readable",
+          "z_index": 4,
+          "source": "render_motion",
+          "anchor_to_plate": true,
+          "anchor_point_id": "primary_farmhouse",
+          "prompt": "small blurry distant figures of families being escorted from farmhouses to military trucks by soldiers, 1930s",
+          "motion": "evacuation_loading"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "mature",
+        "condition": "unattended"
+      },
+      "human_presence": {
+        "present": true,
+        "visibility_mode": "background_blurred",
+        "action": "evacuation"
+      },
+      "environment_state": {
+        "location_variant": "alpine_valley_einsiedeln_evacuating",
+        "weather": "overcast"
+      },
+      "event_state": {
+        "event_active": true,
+        "event_type": "human_made_flooding",
+        "event_phase": "preparation",
+        "event_signals": ["evacuation_in_progress"],
+        "system_status": "transforming"
+      },
+      "sound_state": {
+        "soundscape_id": "alpine_valley_military",
+        "background_sounds": ["door_knocks", "indistinct_yelling", "baby_crying", "doors_slamming", "truck_engines_departing"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A2_plate_pristine",
+        "continuity_reference_beat": "A2_B006",
+        "next_beat_id": "A2_B008",
+        "next_beat_plate": "A2_plate_evacuated"
+      }
+    },
+
+    {
+      "beat_id": "A2_B008",
+      "beat_name": "Aircraft bomb the houses",
+      "beat_order": 20,
+      "act_id": "A2",
+      "script_excerpt": "two Fokker C-V-E bombers DASH OVER us across the sky towards the houses... They release heavy, bomb-like looking objects... One bomb hits its target, and demolishes a house in a massive explosion.",
+      "script_summary": "Dawn. Fokker C.V-E bombers roar overhead. Two pass over, circle back, release bombs onto evacuated houses. One direct hit demolishes a farmhouse; others damaged. Smoldering remains.",
+      "timing": {
+        "duration_sec": 10,
+        "time_mode": "real_time",
+        "tempo": "military_orchestrated",
+        "transition_in": "dawn",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A2_plate_evacuated",
+        "modifications": ["dawn_grade"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_unattended",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "motion": "leaves_disturbed_by_explosions"
+        },
+        {
+          "layer_id": "fokker_biplanes",
+          "type": "midground_actor",
+          "depth_band": "background",
+          "focus_state": "blurred_readable",
+          "z_index": 6,
+          "source": "render_motion",
+          "prompt": "1930s Fokker C.V-E biplanes diving over Alpine valley, open cockpit, two-bay wings, fixed landing gear, military markings, releasing iron bombs",
+          "alpha_strategy": "auto_segment",
+          "motion": "pass_overhead_and_dive"
+        },
+        {
+          "layer_id": "house_explosions",
+          "type": "event_effect",
+          "depth_band": "background",
+          "anchor_to_plate": true,
+          "anchor_point_id": "primary_farmhouse",
+          "source": "render_motion",
+          "prompt": "1930s farmhouse mid-explosion, dust and debris plume, wooden beams flying outward, collapsing roof",
+          "blend_mode": "normal",
+          "motion": "explosion_then_smolder"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "mature",
+        "condition": "unattended_disturbed"
+      },
+      "human_presence": { "present": false },
+      "environment_state": {
+        "location_variant": "alpine_valley_under_bombing",
+        "weather": "smoke_dust"
+      },
+      "event_state": {
+        "event_active": true,
+        "event_type": "military_demolition",
+        "event_phase": "active",
+        "system_status": "transforming"
+      },
+      "sound_state": {
+        "soundscape_id": "alpine_valley_aircraft",
+        "background_sounds": ["biplane_engines", "bomb_whistle", "house_explosions"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A2_plate_evacuated",
+        "anchor_points_locked": ["primary_farmhouse"],
+        "continuity_reference_beat": "A2_B007",
+        "next_beat_id": "A2_B009",
+        "next_beat_plate": "A2_plate_destroyed"
+      },
+      "notes": {
+        "risk_flags": ["Fokker C.V-E specifically, not generic bomber; restrained number of planes in frame"]
+      }
+    },
+
+    {
+      "beat_id": "A2_B009",
+      "beat_name": "Overgrown field, construction soundscape",
+      "beat_order": 21,
+      "act_id": "A2",
+      "script_excerpt": "the field harboring the potato plant, now unattended, becomes over-grown with weeds... the SOUNDSCAPE of a massive construction site off screen emerges; gaining in complexity and volume until a rapid stop signals its completion.",
+      "script_summary": "Time-lapse. Field overgrown with weeds, some reaching the sign. Off-screen construction soundscape grows in volume, then stops abruptly.",
+      "timing": {
+        "duration_sec": 7,
+        "time_mode": "time_lapse",
+        "tempo": "accelerated_then_stop",
+        "transition_in": "cut",
+        "transition_out": "decelerate"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A2_plate_destroyed",
+        "modifications": ["overgrown_grade", "time_lapse_cycle"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_amid_weeds",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "potato plant surrounded by growing weeds reaching the evacuation sign, time-lapse overgrowth",
+          "motion": "weed_overgrowth_timelapse"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "mature",
+        "condition": "surrounded_by_weeds"
+      },
+      "environment_state": {
+        "location_variant": "alpine_valley_destroyed_overgrown",
+        "weather": "varied_time_lapse"
+      },
+      "event_state": {
+        "event_active": true,
+        "event_type": "human_made_flooding",
+        "event_phase": "construction_offscreen",
+        "system_status": "transforming"
+      },
+      "sound_state": {
+        "soundscape_id": "alpine_valley_construction",
+        "offscreen_action_sounds": ["dam_construction_offscreen", "machinery_rising", "abrupt_stop"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A2_plate_destroyed",
+        "continuity_reference_beat": "A2_B008",
+        "next_beat_id": "A2_B010"
+      }
+    },
+
+    {
+      "beat_id": "A2_B010",
+      "beat_name": "River swells and floods the valley",
+      "beat_order": 22,
+      "act_id": "A2",
+      "script_excerpt": "the once peaceful river begins slowly to swell and overflow. Slowly but surely, the water reaches the destroyed houses, and then moments later our potato plant; engulfing and ultimately swallowing the entire valley floor. An artificial lake forms in front of our eyes!",
+      "script_summary": "Cloudy day. Without rain, the river overflows. Water reaches destroyed houses, then the plant. Valley floor submerges. Camera begins to be engulfed.",
+      "timing": {
+        "duration_sec": 12,
+        "time_mode": "slowed_then_real",
+        "tempo": "slow_inexorable",
+        "transition_in": "decelerate_into",
+        "transition_out": "continued_submersion"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A2_plate_destroyed",
+        "modifications": ["overcast_grade", "rising_water_progression"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_being_flooded",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "motion": "water_reaches_then_submerges"
+        },
+        {
+          "layer_id": "rising_water_layer",
+          "type": "event_effect",
+          "depth_band": "midground",
+          "anchor_to_plate": true,
+          "anchor_point_id": "river_centerline",
+          "source": "render_motion",
+          "prompt": "calm artificial floodwater rising slowly across valley floor, reaching destroyed houses then plant base, no rain",
+          "blend_mode": "normal",
+          "motion": "rise_slow_engulf"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "mature",
+        "condition": "being_submerged"
+      },
+      "environment_state": {
+        "location_variant": "alpine_valley_flooding",
+        "soil_state": "wet_to_submerged",
+        "weather": "cloudy_no_rain"
+      },
+      "event_state": {
+        "event_active": true,
+        "event_type": "human_made_flooding",
+        "event_phase": "active",
+        "event_signals": ["rising_water"],
+        "system_status": "collapsed_for_valley"
+      },
+      "sound_state": {
+        "soundscape_id": "alpine_valley_flooding",
+        "foreground_sounds": ["water_lapping_plant_base"],
+        "background_sounds": ["distant_reservoir_water"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A2_plate_destroyed",
+        "continuity_reference_beat": "A2_B009",
+        "next_beat_id": "A2_B011"
+      }
+    },
+
+    {
+      "beat_id": "A2_B011",
+      "beat_name": "Submersion and transition to Mars",
+      "beat_order": 23,
+      "act_id": "A2",
+      "script_excerpt": "MOMENTS LATER we only see a fading silhouette of our potato plant; drowning, slowly decaying... As if a gigantic fish tank suddenly BURST in front of our eyes, the massive body of water in front of our eyes washes away to the sides.",
+      "script_summary": "Plant fully submerged. Murky water dims. Plant fades. Then the entire body of water bursts away laterally like a fish tank shattering, revealing Mars.",
+      "timing": {
+        "duration_sec": 8,
+        "time_mode": "real_time",
+        "tempo": "fade_then_burst",
+        "transition_in": "continued_submersion",
+        "transition_out": "fish_tank_burst_to_A3",
+        "transition_out_duration_sec": 2.0
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A2_plate_submerged",
+        "modifications": ["depth_dimming"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_submerged_fading",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp_to_dim",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "submerged potato plant silhouette fading in murky greenish water, drifting silt particles",
+          "motion": "submerged_drift_and_fade"
+        },
+        {
+          "layer_id": "water_burst_transition",
+          "type": "transition_effect",
+          "z_index": 12,
+          "source": "render_motion",
+          "prompt": "massive body of water bursting laterally like glass tank shattering, water sheets washing to sides",
+          "motion": "lateral_burst_to_reveal_A3"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "submerged",
+        "condition": "decaying_fading"
+      },
+      "environment_state": {
+        "location_variant": "alpine_valley_fully_submerged",
+        "weather": "underwater",
+        "light_state": "dimming_filtered"
+      },
+      "event_state": {
+        "event_active": true,
+        "event_type": "human_made_flooding",
+        "event_phase": "aftermath",
+        "system_status": "collapsed_for_valley"
+      },
+      "sound_state": {
+        "soundscape_id": "alpine_valley_flooding",
+        "background_sounds": ["muffled_underwater_ambience"],
+        "transition_sounds": ["fish_tank_burst"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A2_plate_submerged",
+        "continuity_reference_beat": "A2_B010",
+        "next_beat_id": "A3_B001",
+        "next_beat_inherits_anchor": true,
+        "transition_type": "fish_tank_burst"
+      }
+    },
+
+    {
+      "beat_id": "A3_B001",
+      "beat_name": "Mars chamber revealed, man plants sliced potato",
+      "beat_order": 24,
+      "act_id": "A3",
+      "script_excerpt": "...a hangar-like facility, with thick-glassed, hexagon-shaped windows... A MAN with a thinned-out physique walks into frame... and dips his rubber-gloved hands into the pod to plant what appears to be a sliced-up potato.",
+      "script_summary": "Mars agricultural chamber revealed. Same anchor center is now a growing pod. A thin man with rubber gloves plants sliced potato pieces. Heat lamps and sprinklers begin their alternating cycle.",
+      "timing": {
+        "duration_sec": 10,
+        "time_mode": "real_time",
+        "tempo": "ritual_mechanical",
+        "transition_in": "fish_tank_burst_reveal",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A3_plate_chamber_thriving",
+        "modifications": []
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "soil_pod_with_slices",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "advanced growing pod with artificial soil, sliced potato pieces being placed in center, sharp focus",
+          "motion": "potato_slices_placed"
+        },
+        {
+          "layer_id": "rubber_gloved_hands",
+          "type": "foreground_actor",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 11,
+          "source": "render_motion",
+          "prompt": "thin forearms in worn beige rubber gloves entering frame, partial body in grey-blue colony coverall, no face",
+          "negative_prompt": "face",
+          "alpha_strategy": "auto_segment",
+          "motion": "plant_slices_then_retreat"
+        },
+        {
+          "layer_id": "heat_lamp_glow",
+          "type": "atmosphere",
+          "depth_band": "foreground",
+          "anchor_to_plate": true,
+          "anchor_point_id": "ceiling_heat_lamp",
+          "source": "render_motion",
+          "prompt": "warm orange-white cone of light from ceiling heat lamp onto soil pod, electric buzz visible as faint haze",
+          "blend_mode": "screen",
+          "opacity": 0.7,
+          "motion": "switch_on_steady"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "slices_planted",
+        "condition": "engineered"
+      },
+      "human_presence": {
+        "present": true,
+        "visibility_mode": "partial",
+        "body_parts_visible": ["hands", "forearms", "torso_partial"],
+        "garment_description": "worn beige rubber gloves, grey-blue colony coverall",
+        "action": "planting"
+      },
+      "environment_state": {
+        "location_variant": "mars_chamber_thriving",
+        "soil_state": "engineered_pod_soil",
+        "light_state": "artificial_stable",
+        "time_of_day": "mars_day"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": {
+        "soundscape_id": "mars_chamber_stable",
+        "foreground_sounds": ["heat_lamp_electric_buzz", "sprinkler_hiss"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A3_plate_chamber_thriving",
+        "anchor_points_locked": ["primary_pod_center", "ceiling_heat_lamp"],
+        "continuity_reference_beat": "A2_B011",
+        "next_beat_id": "A3_B002"
+      }
+    },
+
+    {
+      "beat_id": "A3_B002",
+      "beat_name": "Growth cycle and seedlings emerge",
+      "beat_order": 25,
+      "act_id": "A3",
+      "script_excerpt": "the intervals of heat lamp and artificial rain accelerating faster and faster, the plants grow into their destined size... Curious SEEDLINGS of potato plants push through the soil; one of them assuming the exact same centered position within our frame, just like its ancestors in the previous acts.",
+      "script_summary": "Mechanical cycle of heat lamp and sprinkler accelerates. Seedlings emerge in the pod. One takes the exact centered position of the plant from previous acts. Other vegetables grow in rear pods.",
+      "timing": {
+        "duration_sec": 8,
+        "time_mode": "time_lapse",
+        "tempo": "mechanical_accelerating",
+        "transition_in": "cut",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A3_plate_chamber_thriving",
+        "modifications": ["time_lapse_artificial_light_cycle"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "seedling_emergence_pod",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "potato seedlings emerging from pod soil, one centered, growing under cycling artificial light",
+          "motion": "seedling_emergence_growth"
+        },
+        {
+          "layer_id": "rear_pod_vegetables",
+          "type": "midground_subject",
+          "depth_band": "midground",
+          "focus_state": "softening",
+          "z_index": 8,
+          "source": "render_motion",
+          "motion": "synchronized_growth_other_crops"
+        },
+        {
+          "layer_id": "lamp_sprinkler_cycle",
+          "type": "atmosphere",
+          "anchor_to_plate": true,
+          "anchor_point_id": "ceiling_heat_lamp",
+          "source": "render_motion",
+          "blend_mode": "screen",
+          "motion": "alternating_on_off_accelerating"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "sprout_to_mature",
+        "condition": "engineered_healthy",
+        "centered": true
+      },
+      "environment_state": {
+        "location_variant": "mars_chamber_thriving",
+        "light_state": "cycling_artificial"
+      },
+      "event_state": { "event_active": false, "system_status": "stable" },
+      "sound_state": { "soundscape_id": "mars_chamber_stable" },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A3_plate_chamber_thriving",
+        "continuity_reference_beat": "A3_B001",
+        "next_beat_id": "A3_B003"
+      }
+    },
+
+    {
+      "beat_id": "A3_B003",
+      "beat_name": "Colony decay visible outside",
+      "beat_order": 26,
+      "act_id": "A3",
+      "script_excerpt": "the colony infrastructure available to our view is not exactly thriving. To the contrary: it is but decaying. The hulls of the buildings are visibly decaying... During the nights, fewer and fewer lights switch on outside.",
+      "script_summary": "Plant continues growing as before. But through the windows, the Mars colony shows visible decay: corroded surfaces, fewer night lights, no maintenance.",
+      "timing": {
+        "duration_sec": 6,
+        "time_mode": "time_lapse",
+        "tempo": "decay_progression",
+        "transition_in": "cut",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A3_plate_chamber_thriving",
+        "transitions_to_plate": "A3_plate_chamber_decaying",
+        "modifications": ["time_lapse_decay_progression"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_continuing_growth",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "motion": "steady_growth"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "growing",
+        "condition": "engineered_healthy"
+      },
+      "environment_state": {
+        "location_variant": "mars_chamber_outside_decaying",
+        "light_state": "fewer_night_lights"
+      },
+      "event_state": {
+        "event_active": false,
+        "event_signals": ["colony_decay"],
+        "system_status": "decaying_but_chamber_stable"
+      },
+      "sound_state": {
+        "soundscape_id": "mars_chamber_decaying"
+      },
+      "continuity_contract": {
+        "plate_transition_in_progress": true,
+        "from_plate": "A3_plate_chamber_thriving",
+        "to_plate": "A3_plate_chamber_decaying",
+        "continuity_reference_beat": "A3_B002",
+        "next_beat_id": "A3_B004"
+      }
+    },
+
+    {
+      "beat_id": "A3_B004",
+      "beat_name": "Flowering under artificial light, drone pollinates",
+      "beat_order": 27,
+      "act_id": "A3",
+      "script_excerpt": "The heat lamp BUZZES, flickers, struggling to turn on. The potato plant responds... by producing one singular bud, which then surely POPS open to reveal a beautiful violet flower... a small DRONE — similar in size to a bee — WHIZZES into frame.",
+      "script_summary": "Heat lamp flickers struggling on. Plant blooms violet flowers. A bee-sized drone enters, pollinates flowers one by one, then moves to rear pod vegetables.",
+      "timing": {
+        "duration_sec": 8,
+        "time_mode": "real_time",
+        "tempo": "ritual_mechanical",
+        "transition_in": "cut",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A3_plate_chamber_decaying",
+        "modifications": ["flickering_lamp_grade"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_flowering_mars",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "potato plant blooming with violet flowers under flickering artificial light, Mars chamber",
+          "motion": "flower_bloom"
+        },
+        {
+          "layer_id": "pollination_drone",
+          "type": "foreground_actor",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 11,
+          "source": "render_motion",
+          "prompt": "bee-sized matte black pollination drone, four small rotor units motion-blurred, slim cylindrical body, hovering at flower",
+          "alpha_strategy": "auto_segment",
+          "motion": "hover_pollinate_then_recede"
+        },
+        {
+          "layer_id": "heat_lamp_flicker",
+          "type": "atmosphere",
+          "anchor_to_plate": true,
+          "anchor_point_id": "ceiling_heat_lamp",
+          "blend_mode": "screen",
+          "opacity": 0.6,
+          "motion": "struggle_flicker_on"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "flowering",
+        "condition": "engineered_blooming",
+        "flowers_visible": true
+      },
+      "environment_state": {
+        "location_variant": "mars_chamber_decaying",
+        "light_state": "flickering_artificial"
+      },
+      "event_state": {
+        "event_active": false,
+        "system_status": "decaying_but_chamber_functional"
+      },
+      "sound_state": {
+        "soundscape_id": "mars_chamber_decaying",
+        "foreground_sounds": ["heat_lamp_struggle_buzz", "drone_whiz"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A3_plate_chamber_decaying",
+        "continuity_reference_beat": "A3_B003",
+        "next_beat_id": "A3_B005"
+      }
+    },
+
+    {
+      "beat_id": "A3_B005",
+      "beat_name": "Harvest by weakened man",
+      "beat_order": 28,
+      "act_id": "A3",
+      "script_excerpt": "The Man with the gloves returns harvest... we notice that one of his gloves is repaired with a piece of silver tape. He grabs our plant by the stem, rips it out alongside its tubers and walks off.",
+      "script_summary": "Flowers fade, leaves thicken, soil swells. The man returns, gloves now silver-taped. He pulls the plant out by the stem with its tubers and leaves.",
+      "timing": {
+        "duration_sec": 7,
+        "time_mode": "real_time",
+        "tempo": "ritual_ailing",
+        "transition_in": "cut",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A3_plate_chamber_decaying",
+        "modifications": []
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "plant_being_harvested_mars",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "Mars-grown potato plant being pulled from pod, pale tubers dangling from roots",
+          "motion": "pulled_upward"
+        },
+        {
+          "layer_id": "man_silver_taped_gloves",
+          "type": "foreground_actor",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 11,
+          "source": "render_motion",
+          "prompt": "thin forearms in worn beige rubber gloves, one glove repaired with dull silver duct tape patch on back of hand, gripping plant stem",
+          "negative_prompt": "face",
+          "alpha_strategy": "auto_segment",
+          "motion": "grip_pull_walk_off"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "harvested",
+        "condition": "uprooted",
+        "potatoes_visible": true
+      },
+      "human_presence": {
+        "present": true,
+        "visibility_mode": "partial",
+        "body_parts_visible": ["hands", "forearms"],
+        "garment_description": "worn beige rubber gloves with silver tape patch, colony coverall",
+        "action": "harvesting"
+      },
+      "environment_state": {
+        "location_variant": "mars_chamber_decaying"
+      },
+      "event_state": { "event_active": false, "system_status": "decaying" },
+      "sound_state": { "soundscape_id": "mars_chamber_decaying" },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A3_plate_chamber_decaying",
+        "continuity_reference_beat": "A3_B004",
+        "next_beat_id": "A3_B006"
+      },
+      "notes": {
+        "risk_flags": ["silver tape on glove is key continuity detail with later beats"]
+      }
+    },
+
+    {
+      "beat_id": "A3_B006",
+      "beat_name": "Time ramp: resource depletion, deeper decay",
+      "beat_order": 29,
+      "act_id": "A3",
+      "script_excerpt": "in a timelapse, as days and nights continue to whiz by, the fruits and vegetables in the back are depleted steadily. Outside the thick glass, the colony continues its decay. Until one night... no lights ignite at all.",
+      "script_summary": "Time-lapse. Rear vegetables deplete. Colony outside continues decaying. Eventually no exterior lights ignite at all — only the chamber remains lit.",
+      "timing": {
+        "duration_sec": 6,
+        "time_mode": "time_lapse",
+        "tempo": "decay_acceleration",
+        "transition_in": "cut",
+        "transition_out": "decelerate"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A3_plate_chamber_decaying",
+        "modifications": ["time_lapse_to_dark_exterior"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "empty_pod_center",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "empty growing pod with restored soil, awaiting next planting, central anchor",
+          "motion": "static_with_dust_settle"
+        },
+        {
+          "layer_id": "rear_pods_depleting",
+          "type": "midground_subject",
+          "depth_band": "midground",
+          "focus_state": "softening",
+          "z_index": 8,
+          "source": "render_motion",
+          "motion": "vegetables_deplete_over_time"
+        }
+      ],
+      "plant_state": {
+        "present": false,
+        "stage": "absent_between_plantings",
+        "condition": "none"
+      },
+      "environment_state": {
+        "location_variant": "mars_chamber_decaying_severe",
+        "light_state": "no_exterior_lights_at_night"
+      },
+      "event_state": {
+        "event_active": false,
+        "event_signals": ["colony_dark_at_night"],
+        "system_status": "decaying"
+      },
+      "sound_state": { "soundscape_id": "mars_chamber_decaying" },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A3_plate_chamber_decaying",
+        "continuity_reference_beat": "A3_B005",
+        "next_beat_id": "A3_B007"
+      }
+    },
+
+    {
+      "beat_id": "A3_B007",
+      "beat_name": "Man replants quartered potato, storm approaches",
+      "beat_order": 30,
+      "act_id": "A3",
+      "script_excerpt": "His body appears even thinner now... his rubber gloves show wear and tear, the patch of silver tape must have fallen off. Then, a deep, dull RUMBLE shakes the chamber... a wall of red dust gathers in the distance.",
+      "script_summary": "Man returns weaker, gloves now without the silver tape patch. A deep rumble shakes the chamber. Outside, a wall of red dust approaches. He plants a quartered potato and walks off limping. Sprinkler gives only a few drops.",
+      "timing": {
+        "duration_sec": 9,
+        "time_mode": "real_time",
+        "tempo": "ominous_ritual",
+        "transition_in": "decelerate_into",
+        "transition_out": "cut"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A3_plate_chamber_decaying",
+        "transitions_to_plate": "A3_plate_chamber_failing",
+        "modifications": ["dust_storm_approaching_grade", "flickering_lights"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "pod_with_quartered_potato",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "growing pod with restored soil, quartered potato pieces being pressed into soil",
+          "motion": "quarters_planted"
+        },
+        {
+          "layer_id": "weakened_man_gloves",
+          "type": "foreground_actor",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 11,
+          "source": "render_motion",
+          "prompt": "thin shaking forearms in worn rubber gloves, silver tape patch missing, planting potato quarters slowly",
+          "negative_prompt": "face, silver tape patch",
+          "alpha_strategy": "auto_segment",
+          "motion": "plant_slow_limp_off"
+        },
+        {
+          "layer_id": "approaching_dust_wall",
+          "type": "event_effect",
+          "depth_band": "background",
+          "source": "render_motion",
+          "prompt": "wall of red Martian dust gathering in distance through chamber windows, growing closer",
+          "blend_mode": "normal",
+          "motion": "approach_horizon"
+        },
+        {
+          "layer_id": "lamp_flicker_more",
+          "type": "atmosphere",
+          "anchor_to_plate": true,
+          "anchor_point_id": "ceiling_heat_lamp",
+          "blend_mode": "screen",
+          "motion": "more_intense_flicker"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "slices_planted",
+        "condition": "engineered_fragile"
+      },
+      "human_presence": {
+        "present": true,
+        "visibility_mode": "partial",
+        "body_parts_visible": ["hands", "forearms"],
+        "garment_description": "worn rubber gloves WITHOUT silver tape patch, more degraded coverall",
+        "action": "replanting_weakened"
+      },
+      "environment_state": {
+        "location_variant": "mars_chamber_storm_approaching",
+        "weather": "dust_storm_approach",
+        "light_state": "flickering_unstable"
+      },
+      "event_state": {
+        "event_active": true,
+        "event_type": "chamber_failure",
+        "event_phase": "approach",
+        "event_signals": ["dust_wall", "chamber_rumble", "flickering"],
+        "system_status": "strained"
+      },
+      "sound_state": {
+        "soundscape_id": "mars_chamber_storm",
+        "background_sounds": ["distant_dust_storm_rumble", "chamber_tremor"]
+      },
+      "continuity_contract": {
+        "plate_transition_in_progress": true,
+        "from_plate": "A3_plate_chamber_decaying",
+        "to_plate": "A3_plate_chamber_failing",
+        "continuity_reference_beat": "A3_B006",
+        "next_beat_id": "A3_B008"
+      },
+      "notes": {
+        "risk_flags": ["silver tape continuity: was present in A3_B005, gone here"]
+      }
+    },
+
+    {
+      "beat_id": "A3_B008",
+      "beat_name": "Chamber breach and collapse",
+      "beat_order": 31,
+      "act_id": "A3",
+      "script_excerpt": "Dust SLAMS against the thick hexagonal windows... The glass strains... A sharp line splits across the transparent shell... BAM. The window glass BURSTS. Martian dust explodes into the chamber... the chamber collapses in a violent instant.",
+      "script_summary": "Storm reaches chamber. Walls tremble. Warning light pulses. Glass cracks, seal hisses, heat lamp dies, window bursts, dust explodes inward, chamber collapses violently. Darkness.",
+      "timing": {
+        "duration_sec": 8,
+        "time_mode": "real_time",
+        "tempo": "catastrophic",
+        "transition_in": "cut",
+        "transition_out": "cut_to_darkness"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A3_plate_chamber_failing",
+        "modifications": ["maximum_strain_grade", "warning_red_pulse"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "small_plant_in_storm",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "small recently planted potato sprouts in pod, leaves violently bending in inrush of red dust",
+          "motion": "violent_bending_then_engulfed"
+        },
+        {
+          "layer_id": "cracking_glass",
+          "type": "event_effect",
+          "depth_band": "background",
+          "anchor_to_plate": true,
+          "anchor_point_id": "primary_window_center",
+          "source": "render_motion",
+          "prompt": "hexagonal glass panel cracking, sharp jagged line splitting across, then bursting inward",
+          "blend_mode": "normal",
+          "motion": "crack_propagate_then_burst"
+        },
+        {
+          "layer_id": "dust_inrush",
+          "type": "event_effect",
+          "depth_band": "midground",
+          "anchor_to_plate": true,
+          "anchor_point_id": "primary_window_center",
+          "source": "render_motion",
+          "prompt": "red Martian dust exploding inward through window breach, swirling violently",
+          "blend_mode": "normal",
+          "motion": "explosive_inward_swirl"
+        },
+        {
+          "layer_id": "warning_light_pulse",
+          "type": "atmosphere",
+          "anchor_to_plate": true,
+          "anchor_point_id": "warning_light_rear",
+          "blend_mode": "add",
+          "opacity": 0.9,
+          "motion": "pulse_red"
+        },
+        {
+          "layer_id": "heat_lamp_dies",
+          "type": "atmosphere",
+          "anchor_to_plate": true,
+          "anchor_point_id": "ceiling_heat_lamp",
+          "blend_mode": "screen",
+          "motion": "extinguish_fade_out"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "sprout",
+        "condition": "storm_damaged_then_engulfed",
+        "damage_percent": 100
+      },
+      "environment_state": {
+        "location_variant": "mars_chamber_collapsing",
+        "weather": "dust_storm_breach",
+        "light_state": "failing_with_warning_pulse"
+      },
+      "event_state": {
+        "event_active": true,
+        "event_type": "chamber_failure",
+        "event_phase": "peak",
+        "event_signals": ["glass_crack", "dust_breach", "lamp_failure", "warning_pulse"],
+        "system_status": "collapsing"
+      },
+      "sound_state": {
+        "soundscape_id": "mars_chamber_collapse",
+        "foreground_sounds": ["glass_crack_propagate", "seal_hiss_burst"],
+        "background_sounds": ["dust_storm_roar", "metal_bending", "warning_tone"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A3_plate_chamber_failing",
+        "anchor_points_locked": ["primary_window_center", "ceiling_heat_lamp", "warning_light_rear"],
+        "continuity_reference_beat": "A3_B007",
+        "next_beat_id": "A3_B009"
+      }
+    },
+
+    {
+      "beat_id": "A3_B009",
+      "beat_name": "Aftermath: bruised potato in red dust, end",
+      "beat_order": 32,
+      "act_id": "A3",
+      "script_excerpt": "Only the BLOWING SOUNDS of the sand storm remains. We FADE IN to dust settling on shredded debris of the chamber, covered in red dust. As the wind lifts away some of the dust one bruised piece of potato, is revealed. The dust covers it. Cut to black.",
+      "script_summary": "Long silence after collapse. Fade in on shredded chamber debris under red dust. Wind lifts dust to reveal a single bruised potato piece. Dust covers it again. Cut to black. End of film.",
+      "timing": {
+        "duration_sec": 12,
+        "time_mode": "real_time",
+        "tempo": "quiet_final",
+        "transition_in": "fade_from_black",
+        "transition_in_duration_sec": 2.5,
+        "transition_out": "cut_to_black_final"
+      },
+      "composition_strategy": "layered_composite",
+      "background_plate": {
+        "plate_id": "A3_plate_chamber_destroyed",
+        "modifications": ["thick_dust_layer", "muted_grade"]
+      },
+      "foreground_anchor": [0.5, 0.78],
+      "layers": [
+        {
+          "layer_id": "bruised_potato_piece",
+          "type": "foreground_subject",
+          "depth_band": "foreground",
+          "focus_state": "sharp",
+          "z_index": 10,
+          "source": "render_motion",
+          "prompt": "single bruised quarter-piece of potato, slightly darkened cut surface, visible eye, half-buried in red Martian dust, soft wind grain blowing across it",
+          "motion": "dust_lift_reveal_then_cover"
+        },
+        {
+          "layer_id": "settling_dust_atmosphere",
+          "type": "atmosphere",
+          "depth_band": "midground",
+          "source": "render_motion",
+          "prompt": "fine red dust slowly settling and drifting across destroyed chamber debris",
+          "blend_mode": "normal",
+          "opacity": 0.6,
+          "motion": "slow_dust_drift_and_settle"
+        }
+      ],
+      "plant_state": {
+        "present": true,
+        "stage": "potato_piece_only",
+        "condition": "bruised_buried"
+      },
+      "human_presence": { "present": false },
+      "environment_state": {
+        "location_variant": "mars_chamber_destroyed_aftermath",
+        "weather": "storm_passed_residual_wind",
+        "light_state": "pale_rust_pink_filtered"
+      },
+      "event_state": {
+        "event_active": false,
+        "event_type": "chamber_failure",
+        "event_phase": "aftermath",
+        "system_status": "collapsed"
+      },
+      "sound_state": {
+        "soundscape_id": "mars_chamber_collapse",
+        "background_sounds": ["residual_wind", "settling_debris"]
+      },
+      "continuity_contract": {
+        "must_match_plate_pixel_perfect": "A3_plate_chamber_destroyed",
+        "continuity_reference_beat": "A3_B008",
+        "next_beat_id": null,
+        "last_frame_of_film": true
+      },
+      "notes": {
+        "last_beat_of_film": true,
+        "risk_flags": [
+          "potato piece must be identifiable as same lineage as harvested potatoes in A3_B005",
+          "no green life visible — this is the rule that ends the fable"
+        ]
+      }
+    }
+  ]
+}
